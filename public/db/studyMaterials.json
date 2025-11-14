@@ -1,0 +1,12 @@
+[
+  { "img": "/img/Study.png", "title": "Syllabus", "bgColor": "bg-[#6B46C1]" },
+  { "img": "/img/Study1.png", "title": "NCERT Books", "bgColor": "bg-[#B8860B]" },
+  { "img": "/img/Study2.png", "title": "Previous year questions", "bgColor": "bg-[#4B845C]" },
+  { "img": "/img/Study3.png", "title": "Current Affairs", "bgColor": "bg-[#D97706]" },
+  { "img": "/img/Study4.png", "title": "Important Report", "bgColor": "bg-[#993344]" },
+  { "img": "/img/Study5.png", "title": "Our Books", "bgColor": "bg-[#10B981]" },
+  { "img": "/img/Study6.png", "title": "Knowledge Map", "bgColor": "bg-[#C2410C]" },
+  { "img": "/img/Study7.png", "title": "Open Mock Test", "bgColor": "bg-[#F59E0B]" },
+  { "img": "/img/Study8.png", "title": "News Highlights", "bgColor": "bg-[#F77C8E]" },
+  { "img": "/img/Study9.png", "title": "Others", "bgColor": "bg-[#8B5CF6]" }
+]

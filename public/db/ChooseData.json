@@ -1,0 +1,26 @@
+[
+  {
+    "img": "/img/Chose.png",
+    "label": "Ace your Preparation by Learning from the experts",
+    "description": "Ace your Preparation by Learning from the",
+    "bgColor": "#FFFBE1"
+  },
+  {
+    "img": "/img/Chose1.png",
+    "label": "Specially Crafted Courses to Meet every aspirants Need",
+    "description": "Ace your Preparation by Learning from the.",
+    "bgColor": "#F5F0FF"
+  },
+  {
+    "img": "/img/Chose2.png",
+    "label": "Learn At your Own Pace, Anytime & Anywhere",
+    "description": "Ace your Preparation by Learning from the",
+    "bgColor": "#FFF0FA"
+  },
+  {
+    "img": "/img/Chose3.png",
+    "label": "Interactive & Innovative Learning Methods",
+    "description": "Ace your Preparation by Learning from the",
+    "bgColor": "#EFF7FF"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  { 
+    "title": "Karol Bagh", 
+    "img": "/img/Our1.png", 
+    "bgColorClass": "bg-amber-50" 
+  },
+  { 
+    "title": "Patna", 
+    "img": "/img/Our2.png", 
+    "bgColorClass": "bg-green-50" 
+  },
+  { 
+    "title": "Lucknow", 
+    "img": "/img/Our3.png", 
+    "bgColorClass": "bg-orange-50" 
+  },
+  { 
+    "title": "Dehradun", 
+    "img": "/img/Our4.png", 
+    "bgColorClass": "bg-pink-50" 
+  }
+]

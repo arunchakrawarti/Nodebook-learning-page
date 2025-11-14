@@ -1,0 +1,27 @@
+[
+  {
+    "number": "8K+",
+    "text": "Free Videos",
+    "bgColor": "bg-blue-600"
+  },
+  {
+    "number": "0B+",
+    "text": "Views",
+    "bgColor": "bg-yellow-600"
+  },
+  {
+    "number": "2M+",
+    "text": "Application Downloaded",
+    "bgColor": "bg-green-600"
+  },
+  {
+    "number": "1M+",
+    "text": "Registered Users",
+    "bgColor": "bg-orange-600"
+  },
+  {
+    "number": "10+",
+    "text": "Active Courses",
+    "bgColor": "bg-pink-600"
+  }
+]

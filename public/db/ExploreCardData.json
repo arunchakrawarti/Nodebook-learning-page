@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Head Office - Delhi",
+    "address": "A-9/8, Ansal Building, Behind Batra Cinema, Near Shriram Tea, Dr. Mukherjee Nagar, Delhi, 110009",
+    "phone": "+91-926609 54441",
+    "email": "Connect@notesbookglobalacademy.com",
+    "mapLink": "Google Map",
+    "iconSrc": "/img/Explore.png",
+    "bgColorClass": "bg-indigo-50"
+  },
+  {
+    "title": "Prayagraj",
+    "address": "5 Tashkent Marg, Ganga Bhavan, Near Patrika Chauraha, Civil Lines, Prayagraj, UP - 211001 Landmark: Shri Krishna Dham Colony Entry Gate",
+    "phone": "+91-52660 94433",
+    "email": "Connect@notesbookglobalacademy.com",
+    "mapLink": "Google Map",
+    "iconSrc": "/img/Explore1.png",
+    "bgColorClass": "bg-orange-50"
+  }
+]

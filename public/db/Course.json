@@ -1,0 +1,30 @@
+[
+  {
+    "img": "/images/upsc_gs_foundation_batch_2025.png",
+    "title": "UPSC GS Foundation Batch 2025",
+    "price": "24.92",
+    "originalPrice": "32.90",
+    "badges": ["Best Seller", "20% OFF"]
+  },
+  {
+    "img": "/images/ssc_foundation_batch_2025.png",
+    "title": "SSC Foundation Batch 2025",
+    "price": "24.92",
+    "originalPrice": "32.90",
+    "badges": ["Best Seller", "20% OFF"]
+  },
+  {
+    "img": "/images/gs_special_vision_2.0_foundation_batch_2025.png",
+    "title": "GS Special Vision 2.0 Foundation Batch 2025",
+    "price": "24.92",
+    "originalPrice": "32.90",
+    "badges": ["Best Seller", "20% OFF"]
+  },
+  {
+    "img": "/images/up_si_practise_batch_2025.png",
+    "title": "UP SI Practise Batch 2025",
+    "price": "24.92",
+    "originalPrice": "32.90",
+    "badges": ["Best Seller", "20% OFF"]
+  }
+]

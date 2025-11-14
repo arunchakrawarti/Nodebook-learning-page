@@ -1,0 +1,30 @@
+[
+  {
+    "img": "/img/Test.png",
+    "title": "Concept Builder Test Series",
+    "description": "Strengthen your foundation with topic-wise tests designed to build conceptual clarity.",
+    "currentPrice": "Rs24.92",
+    "originalPrice": "Rs32.90"
+  },
+  {
+    "img": "/img/Test1.png",
+    "title": "Daily Practice Challenge",
+    "description": "Stay consistent with one short test every day to improve accuracy and speed.",
+    "currentPrice": "Rs24.92",
+    "originalPrice": "Rs32.90"
+  },
+  {
+    "img": "/img/Test2.png",
+    "title": "Performance Tracker Series",
+    "description": "Measure your growth after each test with smart analytics and performance reports.",
+    "currentPrice": "Rs24.92",
+    "originalPrice": "Rs32.90"
+  },
+  {
+    "img": "/img/Test3.png",
+    "title": "Final Revision Marathon",
+    "description": "Revise the entire syllabus in the shortest time with quick revision tests and summaries.",
+    "currentPrice": "Rs24.92",
+    "originalPrice": "Rs32.90"
+  }
+]
