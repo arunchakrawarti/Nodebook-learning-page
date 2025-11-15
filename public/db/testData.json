@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "imgSrc": "/img/Previous.jpg",
+    "title": "Ancient India Quiz",
+    "questions": "10 Questions",
+    "description": "Learn the latest strategies to grow your online presence."
+  },
+  {
+    "id": 2,
+    "imgSrc": "/img/Previous1.jpg",
+    "title": "Modern History Quiz",
+    "questions": "10 Questions",
+    "description": "Learn the latest strategies to grow your online presence."
+  },
+  {
+    "id": 3,
+    "imgSrc": "/img/Previous.jpg",
+    "title": "Physical Geography",
+    "questions": "10 Questions",
+    "description": "Learn the latest strategies to grow your online presence."
+  },
+  {
+    "id": 4,
+    "imgSrc": "/img/Previous2.jpg",
+    "title": "Indian Geography MCQs",
+    "questions": "10 Questions",
+    "description": "Learn the latest strategies to grow your online presence."
+  }
+]

@@ -4,7 +4,7 @@ const Description = () => {
   return (
     <div className=" w-full max-w-[1280px] bg-white p-5 md:p-10 leading-[28px] text-[16px] font-poppins text-gray-800">
 
-      {/* Heading */}
+     
       <h2 className="text-[28px] font-bold mb-6">Description</h2>
 
       {/* Paragraph 1 */}

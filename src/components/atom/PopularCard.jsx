@@ -55,7 +55,7 @@ const PopularCard = ({ img, title, price, originalPrice, badges }) => {
 
       {/* Price Info */}
       <div className="flex items-center space-x-2">
-        <p className="font-inter font-bold text-[20px] leading-[26px]">
+        <p className="font-inter font-bold text-[20px] text-black leading-[26px]">
           Rs{price || "0.00"}
         </p>
 

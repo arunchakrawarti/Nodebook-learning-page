@@ -1,7 +1,6 @@
 import React from "react";
 import PopularCard from "../../atom/PopularCard";
 import Link from "next/link";
-
 import courseData from "../../../../public/db/PopularCourses.json";
 
 const PopularCourse = () => {

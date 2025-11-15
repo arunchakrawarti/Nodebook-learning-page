@@ -1,0 +1,62 @@
+ [
+  {
+    "id": 1,
+    "imgSrc": "/img/Trad.jpg",
+    "title": "Previous Year Paper Analysis — Learn What's Changing in 2025",
+    "description": "Analyze trends from past exams to understand question patterns, difficulty levels, and the most important topics."
+  },
+  {
+    "id": 2,
+    "imgSrc": "/img/Trad1.jpg",
+    "title": "How to Start Competitive Exam Preparation from Zero",
+    "description": "Beginner's guide to build study habits, set goals, and start exam prep confidently."
+  },
+  {
+    "id": 3,
+    "imgSrc": "/img/Trad2.jpg",
+    "title": "Best YouTube Channels for Competitive Exam Preparation",
+    "description": "Explore top free YouTube channels offering smart lessons and strategy tips."
+  },
+  {
+    "id": 4,
+    "imgSrc": "/img/Trad3.jpg",
+    "title": "Morning Routine of Successful Aspirants",
+    "description": "Learn the daily habits and morning rituals that keep toppers productive."
+  },
+  {
+    "id": 5,
+    "imgSrc": "/img/Trad4.jpg",
+    "title": "How to Manage Exam Stress and Anxiety Naturally",
+    "description": "Beat exam stress with simple relaxation, focus, and time management techniques."
+  },
+  {
+    "id": 6,
+    "imgSrc": "/img/Trad5.jpg",
+    "title": "Wise Strategy for UPSC Prelims & Mains",
+    "description": "Create smart subject-wise plans to prepare effectively for both UPSC stages."
+  },
+  {
+    "id": 7,
+    "imgSrc": "/img/Trad6.jpg",
+    "title": "Static GK vs Current Affairs: What Matters More?",
+    "description": "Find the right balance between static GK and current affairs preparation."
+  },
+  {
+    "id": 8,
+    "imgSrc": "/img/Trad7.jpg",
+    "title": "Best Revision Notes for Last-Minute Preparation",
+    "description": "Quick and easy notes to help you revise key topics efficiently."
+  },
+  {
+    "id": 9,
+    "imgSrc": "/img/Trad8.jpg",
+    "title": "How to Improve Answer Writing Skills for Mains",
+    "description": "Learn simple techniques to write structured and impactful Mains answers."
+  },
+  {
+    "id": 10,
+    "imgSrc": "/img/Trad9.jpg",
+    "title": "Online vs Offline Coaching: Which Is Better for You?",
+    "description": "Recently, the Prime Minister of India launched Pradhan Mantri Dhan-"
+  }
+]

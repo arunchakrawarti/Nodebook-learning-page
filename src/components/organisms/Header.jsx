@@ -50,7 +50,9 @@ const Header = () => {
           <ul className="hidden lg:flex items-center gap-8 xl:gap-10 font-urbanist text-base leading-6 text-center">
             <Link href="/"><li className="hover:text-blue-700 cursor-pointer">Home</li></Link>
             <Link href="/course"><li className="hover:text-blue-700 cursor-pointer">Courses</li></Link>
+           <Link href="/Practices">
             <li className="hover:text-blue-700 cursor-pointer">Practice</li>
+           </Link>
             <li className="hover:text-blue-700 cursor-pointer">Current Affairs</li>
             <li className="hover:text-blue-700 cursor-pointer">Ask Doubt</li>
             <li className="hover:text-blue-700 cursor-pointer">Test Series</li>

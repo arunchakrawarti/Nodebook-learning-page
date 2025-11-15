@@ -1,16 +1,16 @@
 import React from 'react';
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaFacebookF, FaInstagram, FaLinkedinIn, FaWhatsapp, FaYoutube } from 'react-icons/fa';
-import { FaXTwitter } from 'react-icons/fa6'; // Using FaXTwitter for the 'X' (formerly Twitter) icon
+import { FaXTwitter } from 'react-icons/fa6'; 
 
 const Footar = () => {
   return (
     <footer className='w-full bg-[#272a39] text-white'>
       <div className='max-w-[1400px] mx-auto px-4 py-8'>
 
-        {/* --- Section 1: Quick Links, NBGA, Student Choice, Test Series, UPSC --- */}
+       
         <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-y-8 gap-x-4 pb-8 border-b border-gray-700'>
           
-          {/* Quick Links Column */}
+         
           <div className='col-span-1'>
             <ul>
                 <p className='font-montserrat font-bold text-[18px] mb-4'>Quick Links</p>
@@ -58,7 +58,7 @@ const Footar = () => {
             </ul>
           </div>
           
-          {/* Popular Test Series Column */}
+         
           <div className='col-span-1'>
             <ul>
                 <p className='font-montserrat font-bold text-[18px] mb-4'>Popular Test Series</p>
