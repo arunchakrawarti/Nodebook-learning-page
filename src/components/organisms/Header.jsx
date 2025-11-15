@@ -13,7 +13,7 @@ const Header = () => {
     <div className="w-full">
       
       {/* 🔹 Top Social Bar */}
-      <div className="h-[40px] flex items-center bg-[#003566] justify-center gap-3 px-2 sm:px-6">
+      <div className="h-[40px] flex items-center  bg-[#003566] justify-center gap-3 px-2 sm:px-6">
         <p className="font-bold text-[14px] sm:text-[18px] md:text-[20px] text-center text-yellow-300">
           Follow Us To Get Latest Update →
         </p>
@@ -27,7 +27,7 @@ const Header = () => {
 
       {/* 🔹 Main Header */}
       <div className="shadow relative bg-white">
-        <div className="h-[64px] flex items-center justify-between px-4 sm:px-6 md:px-10">
+        <div className="h-[64px]  flex items-center justify-between px-4 sm:px-6 md:px-10">
           
           {/* 🔸 Left: Logo + Exams Button */}
           <div className="flex items-center gap-2">

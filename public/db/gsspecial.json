@@ -1,0 +1,53 @@
+{
+  "title": "GS SPECIAL VISION 2.0 Foundation Batch 2025-26",
+  "regStartDate": "18 Oct 2025",
+  "regEndDate": "29 Nov 2025",
+  "classStartDate": "17 Nov 2025",
+  "validityEndDate": "17 Nov 2026",
+  "duration": "7-8 Months",
+  "type": "Live Batch",
+  "language": "Hindi / English",
+  "downloadable": "No",
+  "price": "599/-",
+  "originalPrice": "799/-",
+
+  "validity": "12 Months",
+  "durationCard": "7-8 Months",
+  "languageCard": "Hindi / English",
+
+  "curriculum": [
+    {
+      "section": "Monthly Current Affairs PDF",
+      "videos": 0,
+      "notes": 2
+    }
+  ],
+
+  "faculty": [
+    {
+      "name": "AMARENDRA SIR",
+      "subject": "History",
+      "img": "/img/Factly.png"
+    },
+    {
+      "name": "GYAN SIR",
+      "subject": "Polity, Physics & Chemistry",
+      "img": "/img/Factly1.png"
+    },
+    {
+      "name": "ABHISHEK SIR",
+      "subject": "Geography",
+      "img": "/img/Factly2.png"
+    },
+    {
+      "name": "AMRITA MA'AM",
+      "subject": "Biology",
+      "img": "/img/Factly3.png"
+    },
+    {
+      "name": "SHIVAM SIR",
+      "subject": "Static GK / Current Affairs",
+      "img": "/img/Factly4.png"
+    }
+  ]
+}

@@ -40,3 +40,7 @@ body {
 .font-montserrat{
   font-family: var(--font-montserrat);
 }
+
+.font-poppins{
+  font-family: var(--font-poppins);
+}
