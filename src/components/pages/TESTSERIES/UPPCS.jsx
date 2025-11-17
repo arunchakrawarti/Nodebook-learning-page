@@ -1,0 +1,29 @@
+import React from 'react';
+import { MdKeyboardArrowRight } from "react-icons/md";
+
+const UPPCS = () => {
+  return (
+    <div className="w-full max-w-7xl mx-auto mt-6 bg-white border rounded-md shadow mt-10 border-gray-300 p-4 sm:p-6">
+      
+      <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4 sm:gap-0">
+        
+        {/* Title */}
+        <h1 className="font-work-sans font-bold text-lg sm:text-xl md:text-2xl leading-[1.2] tracking-[0] text-gray-800">
+          UPPCS Prelims (GS) Open Mock-2 2025
+        </h1>
+        
+        {/* Button + Icon */}
+        <div className="flex items-center gap-2 sm:gap-4">
+          <button className="font-work-sans font-semibold text-sm sm:text-base md:text-lg leading-[1.2] tracking-[0] bg-[#CCFFCC] px-3 py-2 rounded-md text-[#008000] text-center">
+            Ongoing
+          </button>
+          <MdKeyboardArrowRight className="h-6 w-6 text-gray-600" />
+        </div>
+        
+      </div>
+      
+    </div>
+  );
+};
+
+export default UPPCS;

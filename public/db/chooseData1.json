@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Crafted by Expert",
+    "description": "created by a highly skilled and knowledgeable professional.",
+    "bgColor": "linear-gradient(270deg, #5690C6 0%, #003566 100%)"
+  },
+  {
+    "label": "Crafted by Expert",
+    "description": "Ace your Preparation by Learning from the.",
+    "bgColor": "linear-gradient(270deg, #5BD26B 0%, #255423 100%)"
+  },
+  {
+    "label": "Crafted by Expert",
+    "description": "created by a highly skilled and knowledgeable professional.",
+    "bgColor": "linear-gradient(270deg, #B6BD62 0%, #EDBE17 100%)"
+  },
+  {
+    "label": "Crafted by Expert",
+    "description": "created by a highly skilled and knowledgeable professional.",
+    "bgColor": "linear-gradient(270deg, #669ACB 0%, #831697 100%)"
+  }
+]

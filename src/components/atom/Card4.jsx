@@ -13,14 +13,15 @@ const Card4 = ({
 }) => {
   return (
     <div
-      className="rounded-xl p-6 shadow-md flex flex-col justify-between"
-      style={{
-        backgroundColor: bgColor || "#FFFFFF",
-        width: cardWidth,     
-        maxWidth: cardMaxWidth,
-        height: cardHeight,    
-      }}
-    >
+  className="rounded-xl p-6 shadow-md flex flex-col justify-between"
+  style={{
+    background: bgColor || "#FFFFFF",     // FIXED ✅
+    width: cardWidth,
+    maxWidth: cardMaxWidth,
+    height: cardHeight,
+  }}
+>
+
       {/* Content */}
       <div>
         <Image src={img} height={40} width={40} alt="icon" />

@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Ultimate Test Series 2025",
+    "description": "Experience real exam-level questions designed by experts. Boost your confidence with topic-wise, sectional, and full-length mock tests for all major competitive exams.",
+    "currentPrice": "Rs24.92",
+    "originalPrice": "Rs32.00",
+    "imgSrc": "/img/All.png",
+    "imgAlt": "MADE EASY Online Test Series: PREPARE before you appear"
+  },
+  {
+    "title": "All India Mock Test Series",
+    "description": "Compete with thousands of aspirants across India. Get national-level ranking, instant performance reports, and personalized improvement insights after every test.",
+    "currentPrice": "Rs24.92",
+    "originalPrice": "Rs32.00",
+    "imgSrc": "/img/All1.png",
+    "imgAlt": "TEST SERIES for NEET"
+  },
+  {
+    "title": "Smart Practice Series",
+    "description": "Sharpen your problem-solving speed and accuracy with daily timed quizzes and adaptive items tailored to your preparation level.",
+    "currentPrice": "Rs24.92",
+    "originalPrice": "Rs32.00",
+    "imgSrc": "/img/All2.png",
+    "imgAlt": "Master your COMPETITIVE EXAM PREPS"
+  },
+  {
+    "title": "Rank Booster Test Series",
+    "description": "Target your weak areas and maximize your marks with curated question sets, detailed solutions, and advanced analytics to track your progress.",
+    "currentPrice": "Rs24.92",
+    "originalPrice": "Rs32.00",
+    "imgSrc": "/img/All3.png",
+    "imgAlt": "All India Copetitive Exam FITTER Master Test Series"
+  },
+  {
+    "title": "Exam Ready Series",
+    "description": "Simulate the exact exam environment with authentic question patterns, real-time scoring, and revision-oriented test modules for final-day confidence.",
+    "currentPrice": "Rs24.92",
+    "originalPrice": "Rs32.00",
+    "imgSrc": "/img/All4.png",
+    "imgAlt": "Comprehensive Agriculture Mock Test Series: Complete Agriculture"
+  }
+]

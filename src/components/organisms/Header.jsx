@@ -81,8 +81,12 @@ const Header = () => {
                 Current Affairs
               </li>
             </Link>
+            <Link href='/ask-doubt'>
             <li className="hover:text-blue-700 cursor-pointer">Ask Doubt</li>
+            </Link>
+            <Link href='/test-series'>
             <li className="hover:text-blue-700 cursor-pointer">Test Series</li>
+            </Link>
             <li className="hover:text-blue-700 cursor-pointer">Open Test</li>
             <li className="hover:text-blue-700 cursor-pointer">
               Study Materials
