@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Menu, X } from "lucide-react";
 import MainSidebar from "./MainSidebar";
 import Link from "next/link";
+import { RiArrowDropDownLine } from "react-icons/ri";
 
 const Header = () => {
   const [showSidebar, setShowSidebar] = useState(false);
@@ -11,25 +12,42 @@ const Header = () => {
 
   return (
     <div className="w-full">
-      
-      {/* 🔹 Top Social Bar */}
-      <div className="h-[40px] flex items-center  bg-[#003566] justify-center gap-3 px-2 sm:px-6">
-        <p className="font-bold text-[14px] sm:text-[18px] md:text-[20px] text-center text-yellow-300">
+      <div
+        className="
+  h-auto py-2
+  flex flex-col sm:flex-row 
+  items-center justify-center 
+  bg-[#003566] 
+  gap-2 sm:gap-4 
+  px-3 sm:px-6
+  text-center
+"
+      >
+        <p
+          className="
+    font-bold 
+    text-[13px] sm:text-[16px] md:text-[18px] 
+    text-yellow-300
+  "
+        >
           Follow Us To Get Latest Update →
         </p>
+
         <div className="flex gap-3 sm:gap-5">
           <Image src="/img/instra.png" height={24} width={24} alt="Instagram" />
-          <Image src="/img/facebook.png" height={24} width={24} alt="Facebook" />
+          <Image
+            src="/img/facebook.png"
+            height={24}
+            width={24}
+            alt="Facebook"
+          />
           <Image src="/img/Linkdin.png" height={24} width={24} alt="LinkedIn" />
           <Image src="/img/bird.png" height={24} width={24} alt="Twitter" />
         </div>
       </div>
 
-      {/* 🔹 Main Header */}
       <div className="shadow relative bg-white">
         <div className="h-[64px]  flex items-center justify-between px-4 sm:px-6 md:px-10">
-          
-          {/* 🔸 Left: Logo + Exams Button */}
           <div className="flex items-center gap-2">
             <Image
               src="/img/Notebook.png"
@@ -40,35 +58,47 @@ const Header = () => {
             />
             <button
               onClick={() => setShowSidebar(true)}
-              className="px-3 py-2 font-workSans font-medium text-[16.94px] text-[#003566] border border-gray-300 rounded-md hover:bg-gray-100"
+              className="px-1 py-2 font-workSans font-medium text-[16.94px] text-[#003566] 
+             border border-gray-300 rounded-md hover:bg-gray-100 
+             flex items-center gap-1"
             >
-              All Exams
+              <span>All Exams</span>
+              <RiArrowDropDownLine className="w-7 h-7" />
             </button>
           </div>
-
-          {/* 🔸 Desktop Menu */}
           <ul className="hidden lg:flex items-center gap-8 xl:gap-10 font-urbanist text-base leading-6 text-center">
-            <Link href="/"><li className="hover:text-blue-700 cursor-pointer">Home</li></Link>
-            <Link href="/course"><li className="hover:text-blue-700 cursor-pointer">Courses</li></Link>
-           <Link href="/Practices">
-            <li className="hover:text-blue-700 cursor-pointer">Practice</li>
-           </Link>
-            <li className="hover:text-blue-700 cursor-pointer">Current Affairs</li>
+            <Link href="/">
+              <li className="hover:text-blue-700 cursor-pointer">Home</li>
+            </Link>
+            <Link href="/course">
+              <li className="hover:text-blue-700 cursor-pointer">Courses</li>
+            </Link>
+            <Link href="/Practices">
+              <li className="hover:text-blue-700 cursor-pointer">Practice</li>
+            </Link>
+            <Link href="/current-affairs">
+              <li className="hover:text-blue-700 cursor-pointer">
+                Current Affairs
+              </li>
+            </Link>
             <li className="hover:text-blue-700 cursor-pointer">Ask Doubt</li>
             <li className="hover:text-blue-700 cursor-pointer">Test Series</li>
             <li className="hover:text-blue-700 cursor-pointer">Open Test</li>
-            <li className="hover:text-blue-700 cursor-pointer">Study Materials</li>
+            <li className="hover:text-blue-700 cursor-pointer">
+              Study Materials
+            </li>
           </ul>
-
-          {/* 🔸 Search / Profile / Cart / Bell → Only Desktop */}
           <div className="hidden lg:flex items-center gap-4">
             <Image src="/img/search.png" height={20} width={20} alt="Search" />
-            <Image src="/img/manlogo.png" height={20} width={20} alt="Profile" />
+            <Image
+              src="/img/manlogo.png"
+              height={20}
+              width={20}
+              alt="Profile"
+            />
             <Image src="/img/Card.png" height={20} width={20} alt="Cart" />
             <Image src="/img/bel.png" height={20} width={20} alt="Bell" />
           </div>
-
-          {/* 🔸 Mobile Menu Button */}
           <button
             onClick={() => setShowMenu(true)}
             className="lg:hidden p-2 rounded-md border border-gray-300 hover:bg-gray-100"
@@ -76,8 +106,6 @@ const Header = () => {
             <Menu className="w-6 h-6 text-[#003566]" />
           </button>
         </div>
-
-        {/* 🔹 All Exams Sidebar */}
         {showSidebar && (
           <>
             <div
@@ -89,8 +117,6 @@ const Header = () => {
             </div>
           </>
         )}
-
-        {/* 🔹 Mobile Menu Drawer */}
         {showMenu && (
           <>
             <div
@@ -112,11 +138,21 @@ const Header = () => {
                 <li className="hover:text-blue-700 cursor-pointer">Home</li>
                 <li className="hover:text-blue-700 cursor-pointer">Courses</li>
                 <li className="hover:text-blue-700 cursor-pointer">Practice</li>
-                <li className="hover:text-blue-700 cursor-pointer">Current Affairs</li>
-                <li className="hover:text-blue-700 cursor-pointer">Ask Doubt</li>
-                <li className="hover:text-blue-700 cursor-pointer">Test Series</li>
-                <li className="hover:text-blue-700 cursor-pointer">Open Test</li>
-                <li className="hover:text-blue-700 cursor-pointer">Study Materials</li>
+                <li className="hover:text-blue-700 cursor-pointer">
+                  Current Affairs
+                </li>
+                <li className="hover:text-blue-700 cursor-pointer">
+                  Ask Doubt
+                </li>
+                <li className="hover:text-blue-700 cursor-pointer">
+                  Test Series
+                </li>
+                <li className="hover:text-blue-700 cursor-pointer">
+                  Open Test
+                </li>
+                <li className="hover:text-blue-700 cursor-pointer">
+                  Study Materials
+                </li>
               </ul>
             </div>
           </>

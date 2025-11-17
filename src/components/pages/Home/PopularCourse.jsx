@@ -5,7 +5,7 @@ import courseData from "../../../../public/db/PopularCourses.json";
 
 const PopularCourse = () => {
   return (
-    <div className="p-4 md:p-8">
+    <div className="p-4 md:p-12">
       <h1 className="font-work-sans font-bold text-[30px] leading-[100%] mb-6">
         Popular Courses
       </h1>

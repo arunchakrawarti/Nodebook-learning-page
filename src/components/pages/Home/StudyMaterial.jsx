@@ -4,7 +4,7 @@ import studyMaterials from "../../../../public/db/studyMaterials.json";
 
 const StudyMaterial = () => {
   return (
-    <section className="py-10 px-4 sm:px-6 md:px-10 lg:px-16 xl:px-10 max-w-screen-2xl mx-auto">
+    <section className="py-10 px-4 sm:px-6 md:px-10 lg:px-12 max-w-screen-2xl mx-auto">
       {/* Section Title */}
       <h2 className="font-workSans font-bold text-2xl sm:text-3xl md:text-4xl leading-tight mb-10 text-center md:text-left text-gray-900">
         Study Materials

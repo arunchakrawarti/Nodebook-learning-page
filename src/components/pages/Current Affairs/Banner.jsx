@@ -34,7 +34,7 @@ const Banner = () => {
         </div>
 
        
-        <div className='flex flex-col sm:flex-row gap-3 sm:gap-4 md:gap-6 mt-4 w-full sm:w-auto'>
+        <div className='flex flex-col sm:flex-row gap-3 sm:gap-4 md:gap-6 w-full sm:w-auto'>
           <button 
             className="w-full sm:w-auto px-5 py-3 sm:px-6 sm:py-3 bg-red-600 text-white font-bold text-[16px] sm:text-[18px] md:text-[20px] rounded-full shadow-lg hover:bg-red-700 transition duration-200"
           >

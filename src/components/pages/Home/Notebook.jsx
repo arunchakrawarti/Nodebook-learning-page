@@ -21,11 +21,11 @@ const Notebook = () => {
   };
 
   return (
-    <div className="lg:py-20 md:py-10 sm:py-10 px-4 overflow-hidden">
+    <div className="lg:py-20 md:py-10 sm:py-10  px-4 md:px-15 lg:px-12 overflow-hidden">
 
       {/* Heading */}
       <motion.h1
-        className="font-work-sans font-bold ml-2 text-[24px] leading-[28px] tracking-[0px] text-blue-950"
+        className="font-work-sans font-bold  text-[24px] leading-[28px] tracking-[0px] text-blue-950"
         initial={{ opacity: 0, y: -40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
@@ -50,7 +50,7 @@ const Notebook = () => {
               description={itemData.description}
               bgColor={itemData.bgColor}
               cardWidth="100%"
-              cardMaxWidth="330px"
+              cardMaxWidth="335px"
               cardHeight="224px"
             />
           </motion.div>

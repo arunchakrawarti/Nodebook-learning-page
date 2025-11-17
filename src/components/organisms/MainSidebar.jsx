@@ -22,20 +22,20 @@ const MainSidebar = ({ onClose }) => {
 
   return (
     <div className="w-[90vw] sm:w-[80vw] md:w-[500px] lg:w-[600px] h-screen bg-white shadow-lg overflow-y-auto">
-      {/* Top Header */}
+      
       <div className="relative flex justify-between items-center p-4 bg-[#003566] text-white h-[80px] sm:h-[100px]">
-        {/* Title Section */}
+       
         <div className="flex-1 pr-20">
           <h2 className="text-lg sm:text-xl font-bold">All Exams</h2>
           <p className="text-xs sm:text-sm opacity-90">Explore All Exams at KGS</p>
         </div>
 
-        {/* Logo */}
+       
         <div className="absolute right-4 top-1/2 -translate-y-1/2 w-12 h-12 sm:w-16 sm:h-16 rounded-full bg-white flex items-center justify-center shadow-md">
           <Image src="/img/Sidebarlogo.png" alt="Notesbook Logo" width={48} height={48} />
         </div>
 
-        {/* Close Button */}
+       
         <button
           onClick={onClose}
           className="absolute top-2 right-2 text-white text-2xl sm:text-3xl hover:text-gray-200"
@@ -44,7 +44,7 @@ const MainSidebar = ({ onClose }) => {
         </button>
       </div>
 
-      {/* Sidebar Items */}
+      
       <div className="p-3 sm:p-4 grid grid-cols-1 gap-3">
         {sidebarItems.map((item) => (
           <SidebarCard

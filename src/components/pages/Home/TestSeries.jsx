@@ -4,7 +4,7 @@ import testSeriesData from "../../../../public/db/testSeries.json";
 
 const TestSeries = () => {
   return (
-    <section className="w-full py-10 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 bg-gray-50">
+    <section className="w-full py-10 px-4 sm:px-6 md:px-8 lg:px-12 bg-gray-50">
 
       {/* Heading */}
       <h1 className="font-workSans font-bold text-[22px] sm:text-[28px] md:text-[32px] text-center md:text-left mb-8 text-gray-900">

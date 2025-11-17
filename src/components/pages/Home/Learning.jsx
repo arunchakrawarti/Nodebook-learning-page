@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Learning = () => {
   return (
-    <section className="flex flex-col lg:flex-row w-full max-w-[1440px] mx-auto h-auto px-4 sm:px-6 lg:px-12 py-10 lg:py-16 items-center gap-10 lg:gap-0">
+    <section className="flex flex-col lg:flex-row w-full  h-auto px-4 sm:px-6 lg:px-12 py-10 lg:py-16 items-center gap-10 lg:gap-0">
       
       {/* Left Section - Text Content */}
       <div className="w-full lg:w-1/2 flex flex-col justify-center text-left">

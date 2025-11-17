@@ -13,8 +13,8 @@ const SidebarCard = ({ img, title, description }) => {
         w-full
       "
     >
-      {/* Icon */}
-      <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-white flex items-center justify-center p-1 shadow-sm">
+     
+      <div className="flex-shrink-0 w-10 h-10 sm:w-16 sm:h-16 rounded-full bg-white flex items-center justify-center p-1 shadow-sm">
         <Image
           src={img}
           height={40}
@@ -24,7 +24,7 @@ const SidebarCard = ({ img, title, description }) => {
         />
       </div>
 
-      {/* Text Content */}
+     
       <div className="flex flex-col justify-center overflow-hidden">
         <h1 className="font-urbanist font-medium text-[14px] sm:text-[16px] leading-tight text-red-600 truncate">
           {title}

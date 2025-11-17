@@ -1,33 +1,3 @@
-// import React from 'react'
-// import Image from "next/Image"
-
-// const ChannelCard = ({img,title}) => {
-//   return (
-//     <div>
-//         <Image
-//         src="/img/YoutubeChannel.png"
-//         height={45}
-//         width={64}
-//         alt='youtube.png'
-//         />
-//       <div>
-//         <Image
-//       src={img}
-//       height={173}
-//       width={309}
-//       alt='youtube.png'
-//       />
-//       <p class="font-workSans font-medium text-base leading-6 tracking-normal">
-//  {title}
-// </p>
-//       </div>
-
-//     </div>
-//   )
-// }
-
-// export default ChannelCard
-
 import React from 'react';
 import Image from "next/image";
 
@@ -43,9 +13,7 @@ const ChannelCard = ({ img, title }) => {
           layout="fill"
           objectFit="cover"
         />
-
-        {/* Overlay YouTube icon */}
-        <div className="absolute top-2 left-2 sm:top-3 sm:left-3 md:top-16 md:left-27">
+        <div className="absolute top-2 left-2 sm:top-3 sm:left-3 lg:top-16 lg:left-27">
           <Image
             src="/img/Channelogo.png"
             width={50}

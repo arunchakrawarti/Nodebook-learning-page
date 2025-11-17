@@ -19,7 +19,7 @@ const Learn = () => {
         <h1 className="font-sans font-extrabold text-4xl sm:text-5xl md:text-6xl text-center mb-3 leading-tight">
           Learn something new everyday.
         </h1>
-        <p className="font-sans font-normal text-lg sm:text-xl md:text-2xl text-center">
+        <p className="font-sans font-normal text-lg sm:text-xl mb-10 md:mb-10 lg:mb-1  md:text-2xl text-center">
           Become professionals and ready to join the world.
         </p>
       </div>
@@ -28,7 +28,7 @@ const Learn = () => {
       <div
         className="
           absolute left-1/2 -translate-x-1/2 bottom-0 translate-y-1/2
-          w-[92%] sm:w-[90%] md:max-w-5xl
+          w-[92%]  sm:w-[90%] lg:max-w-8xl 
           bg-white p-5 sm:p-6 md:p-8 
           rounded-xl shadow-xl z-20
         "

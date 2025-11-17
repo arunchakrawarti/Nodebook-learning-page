@@ -24,7 +24,7 @@ const Footar = () => {
             </ul>
           </div>
 
-          {/* N.B.G.A Column */}
+         
           <div className='col-span-1'>
             <ul>
                 <p className='font-montserrat font-bold text-[18px] mb-4'>N.B.G.A</p>
@@ -39,7 +39,7 @@ const Footar = () => {
             </ul>
           </div>
           
-          {/* Student Choice Column */}
+          
           <div className='col-span-1'>
             <ul>
                 <p className='font-montserrat font-bold text-[18px] mb-4'>Student Choice</p>
@@ -96,7 +96,7 @@ const Footar = () => {
 
         </div>
 
-        {/* --- Section 2: Centre, NBGA Courses, Popular Test Series, NBGA Store, State PCS --- */}
+      
         <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-y-8 gap-x-4 py-8 border-b border-gray-700'>
             
             {/* Centre Column */}
@@ -112,7 +112,7 @@ const Footar = () => {
                 </ul>
             </div>
 
-            {/* NBGA Courses Column */}
+           
             <div className='col-span-1'>
                 <ul>
                     <p className='font-montserrat font-bold text-[18px] mb-4'>NBGA Courses</p>
@@ -129,7 +129,7 @@ const Footar = () => {
                 </ul>
             </div>
             
-            {/* Popular Test Series (Section 2) Column */}
+           
             <div className='col-span-1'>
                 <ul>
                     <p className='font-montserrat font-bold text-[18px] mb-4'>Popular Test Series</p>
@@ -152,7 +152,7 @@ const Footar = () => {
                 </ul>
             </div>
             
-            {/* N.B.G.A Store Column */}
+           
             <div className='col-span-1'>
                 <ul>
                     <p className='font-montserrat font-bold text-[18px] mb-4'>N.B.G.A Store</p>
@@ -175,7 +175,7 @@ const Footar = () => {
                 </ul>
             </div>
 
-            {/* State PCS Column */}
+          
             <div className='col-span-1'>
                 <ul>
                     <p className='font-montserrat font-bold text-[18px] mb-4'>State PCS</p>
@@ -197,29 +197,29 @@ const Footar = () => {
             </div>
         </div>
 
-        {/* --- Section 3: Contact, Social, Newsletter, Suggestion Form --- */}
+       
         <div className='grid grid-cols-1 lg:grid-cols-3 gap-8 pt-8'>
           
-          {/* Left Section: Logo, Address, Contact, Social Media */}
+        
           <div className='lg:col-span-1 flex flex-col items-start'>
             {/* Logo */}
             <div className='mb-6'>
-              {/* Replace with your actual logo image URL */}
+             
               <img src="/img/Footar.png" alt="Notebook Global Academy Logo" className='w-28 h-28  border-2 border-orange-500' />
             </div>
 
-            {/* Address */}
+           
             <div className='flex items-start mb-4'>
               <FaMapMarkerAlt className='text-orange-500 mr-3 mt-1 text-lg' />
               <p className='text-sm opacity-80'>A-9/8, Ansal Building, Behind Batra Cinema, Near Shriram Tea, Dr. Mukherjee Nagar, Delhi, 110009</p>
             </div>
-            {/* The screenshot shows the address repeated, so including it again */}
+          
              <div className='flex items-start mb-6'>
               <FaMapMarkerAlt className='text-orange-500 mr-3 mt-1 text-lg' />
               <p className='text-sm opacity-80'>A-9/8, Ansal Building, Behind Batra Cinema, Near Shriram Tea, Dr. Mukherjee Nagar, Delhi, 110009</p>
             </div>
 
-            {/* Counselling & Course Detail */}
+           
             <h3 className='font-bold text-[16px] mb-2'>Counselling & Course Detail</h3>
             <div className='flex items-center mb-1'>
               <FaPhoneAlt className='text-orange-500 mr-2 text-sm' />

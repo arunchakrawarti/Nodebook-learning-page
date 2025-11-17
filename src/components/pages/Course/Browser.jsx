@@ -9,8 +9,8 @@ const Browser = () => {
   const [activeTab, setActiveTab] = useState("Design");
 
   return (
-    <div className="p-4   md:p-8">
-      <h1 className="font-work-sans font-bold text-[30px] mt-20 text-center leading-[100%] mb-6">
+    <div className="p-4 md:p-9 mt-30 md:mt-20 lg:mt-2 ">
+      <h1 className="font-work-sans font-bold text-[30px] mt-20  text-center leading-[100%] mb-6">
        Browse Our Top Courses
       </h1>
 

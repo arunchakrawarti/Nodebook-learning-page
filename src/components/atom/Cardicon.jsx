@@ -1,65 +1,20 @@
-// import React from 'react';
-// import Image from "next/image";
-
-// const Cardicon = ({ img, title }) => {
-//   return (
-//     <div className='h-[135px] w-[279px] flex justify-center items-center p-4'>
-      
-//       <div className='
-//         bg-amber-50             
-//         rounded-lg              
-//         h-full w-full           
-//         flex flex-col           
-//         justify-center          
-//         items-center            
-//         shadow-sm               
-//         overflow-hidden         
-//       '>
-
-//         <Image
-//           src={img}
-//           height={50}
-//           width={50}
-//           alt={`${title} icon`}
-//           className='text-amber-700'
-//         />
-        
-//         <p className="
-//           font-montserrat       
-//           font-medium           
-//           text-[20px]           
-//           leading-[29px]        
-//           tracking-normal       
-//           text-gray-800         
-//           mt-2                  
-//         ">
-//           {title}
-//         </p>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Cardicon;
-
-
 import React from 'react';
 import Image from "next/image";
 
 const Cardicon = ({ img, title }) => {
   return (
-    <div className="w-full max-w-[260px] p-4">
-      <div className="bg-amber-50 rounded-xl h-full w-full flex flex-col justify-center items-center shadow-md p-4">
-        
+    <div className="w-full p-3 sm:p-4">
+      <div className="bg-amber-50 rounded-xl flex flex-col justify-center items-center shadow-md p-5 ">
+
         <Image
           src={img}
           width={45}
           height={45}
           alt={title}
-          className="object-contain"
+          className="object-contain w-10 h-10 sm:w-12 sm:h-12"
         />
 
-        <p className="mt-3 font-montserrat font-medium text-lg sm:text-xl text-gray-800 text-center">
+        <p className="mt-3 font-montserrat font-medium text-base sm:text-lg md:text-xl text-gray-800 text-center">
           {title}
         </p>
       </div>
