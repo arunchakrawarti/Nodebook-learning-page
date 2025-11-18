@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Practice = () => {
   return (
-    <div className="relative w-full h-[400px] sm:h-[450px] md:h-[500px] lg:h-[400px]  mx-auto overflow-hidden">
+    <div className="relative top-28 w-full h-[400px] sm:h-[450px] md:h-[500px] lg:h-[400px]  mx-auto overflow-hidden">
       
      
       <Image

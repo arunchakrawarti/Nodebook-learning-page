@@ -21,7 +21,7 @@ const Carddata = () => {
   ]
 
   return (
-    <div className="w-full px-4 sm:px-8 md:px-12 lg:px-4 py-10">
+    <div className="w-full mt-30 px-4 sm:px-8 md:px-12 lg:px-4 py-10">
       <div className="
         grid 
         grid-cols-1 

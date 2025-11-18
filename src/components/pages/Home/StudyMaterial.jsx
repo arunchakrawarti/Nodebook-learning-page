@@ -1,6 +1,7 @@
 import React from "react";
 import Card2 from "../../atom/Card2";
 import studyMaterials from "../../../../public/db/studyMaterials.json";
+import Link from "next/link";
 
 const StudyMaterial = () => {
   return (
@@ -26,9 +27,11 @@ const StudyMaterial = () => {
 
       {/* Button */}
       <div className="flex justify-center md:justify-end mt-10">
+       <Link href='/study-material'>
         <button className="font-urbanist font-medium text-sm sm:text-base md:text-lg bg-[#003566] text-white px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg hover:bg-opacity-90 transition-all duration-300">
           Explore Study Materials
         </button>
+       </Link>
       </div>
     </section>
   );

@@ -1,301 +1,303 @@
 import React from 'react';
-import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaFacebookF, FaInstagram, FaLinkedinIn, FaWhatsapp, FaYoutube } from 'react-icons/fa';
-import { FaXTwitter } from 'react-icons/fa6'; 
+import {
+  FaMapMarkerAlt,
+  FaPhoneAlt,
+  FaEnvelope,
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedinIn,
+  FaWhatsapp,
+  FaYoutube
+} from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
 
 const Footar = () => {
   return (
-    <footer className='w-full bg-[#272a39] text-white'>
-      <div className='max-w-[1400px] mx-auto px-4 py-8'>
-
-       
-        <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-y-8 gap-x-4 pb-8 border-b border-gray-700'>
-          
-         
-          <div className='col-span-1'>
-            <ul>
-                <p className='font-montserrat font-bold text-[18px] mb-4'>Quick Links</p>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>All Entrance Course</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>UPSC & State PSC Syllabus</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>One Day Exam Syllabus</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>One Day Exam Course</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Admission Enquiry Form </li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Open Test</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Study Materials</li>
-            </ul>
-          </div>
-
-         
-          <div className='col-span-1'>
-            <ul>
-                <p className='font-montserrat font-bold text-[18px] mb-4'>N.B.G.A</p>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>About Us</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Carrers</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Blog</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Gallery</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Contact Us</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Current Affairs</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Open Test</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Study Materials</li>
-            </ul>
-          </div>
-          
-          
-          <div className='col-span-1'>
-            <ul>
-                <p className='font-montserrat font-bold text-[18px] mb-4'>Student Choice</p>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>N.B.G.A Courses</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>UPSC & State PSC</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>State Exams</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>NEET | JEE | CUET | Boards</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Defence Exams</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Police Exams</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>SSC Exams</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Foundation Courses</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Railway Exams</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Teaching Exams</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Banking Exams</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Engineering Exams</li>
-            </ul>
-          </div>
-          
-         
-          <div className='col-span-1'>
-            <ul>
-                <p className='font-montserrat font-bold text-[18px] mb-4'>Popular Test Series</p>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>UPSC Test Series</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>State PCS (Hindi/English)</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>State Exam Test Series</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Defense Exams Test Series</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>SSC Exams Test Series</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Railway Exam Test Series</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Banking Exam Test Series</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>CUET/JEE/NEET Test Series</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Teaching Exam Test Series</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>CLAT Exam Test Series</li>
-            </ul>
-          </div>
-
-          {/* UPSC Column */}
-          <div className='col-span-1'>
-            <ul>
-                <p className='font-montserrat font-bold text-[18px] mb-4'>UPSC</p>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>UPSC Online (Hindi)</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>UPSC Online (English)</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>UPSC Offline (Hindi)</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>UPSC Offline (English)</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>CSAT Online (Hindi/English)</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>CSAT Offline (Hindi/English)</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Optional Courses (Hindi/English)</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Current Affairs (Hindi/English)</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Test Series</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>UPSC GS Course (Hindi/English)</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>UPSC Foundation (Hindi/English)</li>
-                <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>PYQ (Hindi/English)</li>
-            </ul>
-          </div>
-
-        </div>
-
+    <footer className="w-full bg-[#272a39] text-white">
       
-        <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-y-8 gap-x-4 py-8 border-b border-gray-700'>
-            
-            {/* Centre Column */}
-            <div className='col-span-1'>
-                <ul>
-                    <p className='font-montserrat font-bold text-[18px] mb-4'>Centre</p>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Mukherjee Nagar</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Karol Bagh</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Prayagraj</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Patna</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Dehradun</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>View All</li>
-                </ul>
-            </div>
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 md:px-10 lg:px-12 py-10">
 
-           
-            <div className='col-span-1'>
-                <ul>
-                    <p className='font-montserrat font-bold text-[18px] mb-4'>NBGA Courses</p>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Math</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Reasoning</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Physics</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Chemistry</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Biology</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Polity</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>History</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Geography</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Economics</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Map</li>
-                </ul>
-            </div>
-            
-           
-            <div className='col-span-1'>
-                <ul>
-                    <p className='font-montserrat font-bold text-[18px] mb-4'>Popular Test Series</p>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>BPSSC</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>BSSC (10+2 Level)</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Bihar Daroga</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Bihar School Exams</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>BPSC TRE 4.0 (Class 1-5)</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>BPSC TRE 4.0 (Class 6-10)</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>UPSSSC Je</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>UP Lekhpal</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>UP Police</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>UP Daroga</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>UP Teachers</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>SSC CGL</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>SSC MTS</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>NDA</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>CDS</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>CAPF</li>
-                </ul>
-            </div>
-            
-           
-            <div className='col-span-1'>
-                <ul>
-                    <p className='font-montserrat font-bold text-[18px] mb-4'>N.B.G.A Store</p>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>N.B.G.A Books</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>UPSC Current Affairs</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>State PSC Current Affairs</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>Magazines</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>NDA/ CDS/ CLAT/ EPFO</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>UPSC & State PCS</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>One Day Book</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>CUET/ NEET/ JEE</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>UP Police</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>UP Daroga</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>UP Teachers</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>SSC CGL</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>SSC MTS</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>NDA</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>CDS</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>CAPF</li>
-                </ul>
-            </div>
+        {/* ---------------- TOP GRID ---------------- */}
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-y-10 gap-x-6 pb-10 border-b border-gray-600">
 
-          
-            <div className='col-span-1'>
-                <ul>
-                    <p className='font-montserrat font-bold text-[18px] mb-4'>State PCS</p>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>BPSC Online (Bilingual)</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>BPSC Offline (Bilingual)</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>UPSC Test Series (Bilingual)</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>UPPSC Online (Bilingual)</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>UPPSC Offline (Bilingual)</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>UPPSC Test Series (Bilingual)</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>UKPSC Online (Bilingual)</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>UKPSC Offline (Bilingual)</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>UKPSC Test Series (Bilingual)</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>MPPSC Online (Bilingual)</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>MPPSC Offline (Bilingual)</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>UPRO/ ARO Online (Bilingual)</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>UPRO/ ARO Online (Bilingual)</li>
-                    <li className='text-sm mb-2 opacity-80 hover:opacity-100 cursor-pointer'>PYQ (Bilingual)</li>
-                </ul>
-            </div>
-        </div>
-
-       
-        <div className='grid grid-cols-1 lg:grid-cols-3 gap-8 pt-8'>
-          
-        
-          <div className='lg:col-span-1 flex flex-col items-start'>
-            {/* Logo */}
-            <div className='mb-6'>
-             
-              <img src="/img/Footar.png" alt="Notebook Global Academy Logo" className='w-28 h-28  border-2 border-orange-500' />
-            </div>
-
-           
-            <div className='flex items-start mb-4'>
-              <FaMapMarkerAlt className='text-orange-500 mr-3 mt-1 text-lg' />
-              <p className='text-sm opacity-80'>A-9/8, Ansal Building, Behind Batra Cinema, Near Shriram Tea, Dr. Mukherjee Nagar, Delhi, 110009</p>
-            </div>
-          
-             <div className='flex items-start mb-6'>
-              <FaMapMarkerAlt className='text-orange-500 mr-3 mt-1 text-lg' />
-              <p className='text-sm opacity-80'>A-9/8, Ansal Building, Behind Batra Cinema, Near Shriram Tea, Dr. Mukherjee Nagar, Delhi, 110009</p>
-            </div>
-
-           
-            <h3 className='font-bold text-[16px] mb-2'>Counselling & Course Detail</h3>
-            <div className='flex items-center mb-1'>
-              <FaPhoneAlt className='text-orange-500 mr-2 text-sm' />
-              <p className='text-sm opacity-80'>+91-926609 54441</p>
-            </div>
-            <div className='flex items-center mb-4'>
-              <FaPhoneAlt className='text-orange-500 mr-2 text-sm' />
-              <p className='text-sm opacity-80'>+91-92660 94433</p>
-            </div>
-
-            {/* Course Related Query */}
-            <h3 className='font-bold text-[16px] mb-2'>Course Related Query</h3>
-            <div className='flex items-center mb-6'>
-              <FaEnvelope className='text-orange-500 mr-2 text-sm' />
-              <p className='text-sm opacity-80'>Connect@notesbookglobalacademy.com</p>
-            </div>
-
-            {/* Follow Us On: */}
-            <h3 className='font-bold text-[16px] mb-3'>Follow Us On:</h3>
-            <div className='flex space-x-3'>
-              <a href="#" className='p-2 bg-gray-700 rounded-full hover:bg-orange-500 transition-colors'>
-                <FaFacebookF className='text-lg' />
-              </a>
-              <a href="#" className='p-2 bg-gray-700 rounded-full hover:bg-orange-500 transition-colors'>
-                <FaInstagram className='text-lg' />
-              </a>
-              <a href="#" className='p-2 bg-gray-700 rounded-full hover:bg-orange-500 transition-colors'>
-                <FaXTwitter className='text-lg' /> {/* Using FaXTwitter for the 'X' icon */}
-              </a>
-              <a href="#" className='p-2 bg-gray-700 rounded-full hover:bg-orange-500 transition-colors'>
-                <FaWhatsapp className='text-lg' />
-              </a>
-              <a href="#" className='p-2 bg-gray-700 rounded-full hover:bg-orange-500 transition-colors'>
-                <FaYoutube className='text-lg' />
-              </a>
-            </div>
+          {/* Quick Links */}
+          <div>
+            <p className="font-montserrat font-bold text-[18px] mb-4">Quick Links</p>
+            <ul className="space-y-2 opacity-80 text-sm leading-[18px]">
+              <li>All Entrance Course</li>
+              <li>UPSC & State PSC Syllabus</li>
+              <li>One Day Exam Syllabus</li>
+              <li>One Day Exam Course</li>
+              <li>Admission Enquiry Form</li>
+              <li>Open Test</li>
+              <li>Study Materials</li>
+            </ul>
           </div>
 
-          
-          <div className='lg:col-span-2 flex flex-col justify-between'>
-            {/* Stay Updated */}
-            <div className='mb-8'>
-              <h3 className='font-bold text-[18px] mb-3'>Stay Updated</h3>
-              <p className='text-sm opacity-80 mb-4'>Join our newsletter for the latest updates and exclusive Products.</p>
-              <div className='flex flex-col sm:flex-row gap-4'>
-                <input 
-                  type="email" 
-                  placeholder="Your Email Here" 
-                  className='flex-grow p-3 rounded-md  border  focus:outline-none focus:border-orange-500 text-sm text-white' 
-                />
-                <button className='px-25 py-3  rounded-md border font-semibold  transition-colors'>Subscribe</button>
+          {/* NBGA */}
+          <div>
+            <p className="font-montserrat font-bold text-[18px] mb-4">N.B.G.A</p>
+            <ul className="space-y-2 opacity-80 text-sm leading-[18px]">
+              <li>About Us</li>
+              <li>Careers</li>
+              <li>Blog</li>
+              <li>Gallery</li>
+              <li>Contact Us</li>
+              <li>Current Affairs</li>
+              <li>Open Test</li>
+              <li>Study Materials</li>
+            </ul>
+          </div>
+
+          {/* Student Choice */}
+          <div>
+            <p className="font-montserrat font-bold text-[18px] mb-4">Student Choice</p>
+            <ul className="space-y-2 opacity-80 text-sm leading-[18px]">
+              <li>N.B.G.A Courses</li>
+              <li>UPSC & State PSC</li>
+              <li>State Exams</li>
+              <li>NEET | JEE | CUET | Boards</li>
+              <li>Defence Exams</li>
+              <li>Police Exams</li>
+              <li>SSC Exams</li>
+              <li>Foundation Courses</li>
+              <li>Railway Exams</li>
+              <li>Teaching Exams</li>
+              <li>Banking Exams</li>
+              <li>Engineering Exams</li>
+            </ul>
+          </div>
+
+          {/* Popular Test Series */}
+          <div>
+            <p className="font-montserrat font-bold text-[18px] mb-4">Popular Test Series</p>
+            <ul className="space-y-2 opacity-80 text-sm leading-[18px]">
+              <li>UPSC Test Series</li>
+              <li>State PCS (Hindi/English)</li>
+              <li>State Exam Test Series</li>
+              <li>Defense Exams Test Series</li>
+              <li>SSC Exams Test Series</li>
+              <li>Railway Exam Test Series</li>
+              <li>Banking Exam Test Series</li>
+              <li>CUET/JEE/NEET Test Series</li>
+              <li>Teaching Exam Test Series</li>
+              <li>CLAT Exam Test Series</li>
+            </ul>
+          </div>
+
+          {/* UPSC */}
+          <div>
+            <p className="font-montserrat font-bold text-[18px] mb-4">UPSC</p>
+            <ul className="space-y-2 opacity-80 text-sm leading-[18px]">
+              <li>UPSC Online (Hindi)</li>
+              <li>UPSC Online (English)</li>
+              <li>UPSC Offline (Hindi)</li>
+              <li>UPSC Offline (English)</li>
+              <li>CSAT Online (Hindi/English)</li>
+              <li>CSAT Offline (Hindi/English)</li>
+              <li>Optional Courses</li>
+              <li>Current Affairs</li>
+              <li>Test Series</li>
+              <li>UPSC GS Course</li>
+              <li>UPSC Foundation</li>
+              <li>PYQ (Hindi/English)</li>
+            </ul>
+          </div>
+
+        </div>
+
+        {/* ---------------- SECOND GRID ---------------- */}
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-y-10 gap-x-6 py-10 border-b border-gray-600">
+
+          {/* Centers */}
+          <div>
+            <p className="font-montserrat font-bold text-[18px] mb-4">Centre</p>
+            <ul className="space-y-2 opacity-80 text-sm leading-[18px]">
+              <li>Mukherjee Nagar</li>
+              <li>Karol Bagh</li>
+              <li>Prayagraj</li>
+              <li>Patna</li>
+              <li>Dehradun</li>
+              <li>View All</li>
+            </ul>
+          </div>
+
+          {/* Courses */}
+          <div>
+            <p className="font-montserrat font-bold text-[18px] mb-4">NBGA Courses</p>
+            <ul className="space-y-2 opacity-80 text-sm leading-[18px]">
+              <li>Math</li>
+              <li>Reasoning</li>
+              <li>Physics</li>
+              <li>Chemistry</li>
+              <li>Biology</li>
+              <li>Polity</li>
+              <li>History</li>
+              <li>Geography</li>
+              <li>Economics</li>
+              <li>Map</li>
+            </ul>
+          </div>
+
+          {/* Popular Test Series */}
+          <div>
+            <p className="font-montserrat font-bold text-[18px] mb-4">Popular Test Series</p>
+            <ul className="space-y-2 opacity-80 text-sm leading-[18px]">
+              <li>BPSSC</li>
+              <li>BSSC (10+2 Level)</li>
+              <li>Bihar Daroga</li>
+              <li>Bihar School Exams</li>
+              <li>BPSC TRE 4.0 (Class 1-5)</li>
+              <li>BPSC TRE 4.0 (Class 6-10)</li>
+              <li>UPSSSC JE</li>
+              <li>UP Lekhpal</li>
+              <li>UP Police</li>
+              <li>UP Daroga</li>
+              <li>UP Teachers</li>
+              <li>SSC CGL</li>
+              <li>SSC MTS</li>
+              <li>NDA</li>
+              <li>CDS</li>
+              <li>CAPF</li>
+            </ul>
+          </div>
+
+          {/* Store */}
+          <div>
+            <p className="font-montserrat font-bold text-[18px] mb-4">N.B.G.A Store</p>
+            <ul className="space-y-2 opacity-80 text-sm leading-[18px]">
+              <li>N.B.G.A Books</li>
+              <li>UPSC Current Affairs</li>
+              <li>State PSC Current Affairs</li>
+              <li>Magazines</li>
+              <li>NDA / CDS / CLAT / EPFO</li>
+              <li>UPSC & State PCS</li>
+              <li>One Day Book</li>
+              <li>CUET / NEET / JEE</li>
+              <li>UP Police</li>
+              <li>UP Daroga</li>
+              <li>UP Teachers</li>
+              <li>SSC CGL</li>
+              <li>SSC MTS</li>
+              <li>NDA</li>
+              <li>CDS</li>
+              <li>CAPF</li>
+            </ul>
+          </div>
+
+          {/* State PCS */}
+          <div>
+            <p className="font-montserrat font-bold text-[18px] mb-4">State PCS</p>
+            <ul className="space-y-2 opacity-80 text-sm leading-[18px]">
+              <li>BPSC Online (Bilingual)</li>
+              <li>BPSC Offline (Bilingual)</li>
+              <li>UPSC Test Series</li>
+              <li>UPPSC Online</li>
+              <li>UPPSC Offline</li>
+              <li>UPPSC Test Series</li>
+              <li>UKPSC Online</li>
+              <li>UKPSC Offline</li>
+              <li>UKPSC Test Series</li>
+              <li>MPPSC Online</li>
+              <li>MPPSC Offline</li>
+              <li>UPRO / ARO Online</li>
+              <li>PYQ (Bilingual)</li>
+            </ul>
+          </div>
+
+        </div>
+
+        {/* ---------------- ADDRESS + NEWSLETTER SECTION ---------------- */}
+        <div className="flex flex-col md:flex-row justify-between gap-12 pt-10">
+
+          {/* LEFT SIDE */}
+          <div className="w-full md:w-1/2">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-5 mb-6">
+              <img src="/img/Footar.png" className="w-24 h-24 border-2 border-orange-500" />
+
+              <div className="flex items-start">
+                <FaMapMarkerAlt className="text-orange-500 mt-1 mr-2 text-lg" />
+                <p className="text-sm opacity-80 leading-[20px]">
+                  A-9/8, Ansal Building, Behind Batra Cinema, Near Shriram Tea,<br />
+                  Dr. Mukherjee Nagar, Delhi 110009
+                </p>
               </div>
-              <p className='text-xs opacity-60 mt-3'>By Subscribe You Agreed To Our Privacy Policy And Consent To Recieve Updates.</p>
             </div>
 
-            {/* Your Suggestion Matters! */}
-            <div>
-              <h3 className='font-bold text-[18px] mb-3'>Your Suggestion Matters!</h3>
-              <p className='text-sm opacity-80 mb-4'>Suggest new courses, subjects, or features you'd love to see on Notebook Global Academy. Together, let's make learning sm</p>
-              <textarea 
-                placeholder="Write Something.." 
-                rows="5" 
-                className='w-full p-3 rounded-md  border  focus:outline-none focus:border-orange-500 text-sm text-white mb-4'
-              ></textarea>
-              <button className='px-6 py-3 border rounded-md font-semibold transition-colors'>Submit</button>
+            <h3 className="font-bold text-[16px] mb-2">Counselling & Course Detail</h3>
+            <p className="flex items-center gap-2 text-sm opacity-80 mb-1">
+              <FaPhoneAlt className="text-orange-500" /> +91-92660954441
+            </p>
+            <p className="flex items-center gap-2 text-sm opacity-80 mb-4">
+              <FaPhoneAlt className="text-orange-500" /> +91-9266094433
+            </p>
+
+            <h3 className="font-bold text-[16px] mb-2">Course Related Query</h3>
+            <p className="flex items-center gap-2 text-sm opacity-80 mb-6">
+              <FaEnvelope className="text-orange-500" /> Connect@notesbookglobalacademy.com
+            </p>
+
+            <h3 className="font-bold text-[16px] mb-3">Follow Us On:</h3>
+            <div className="flex gap-3">
+              <div className="p-2 bg-gray-700 rounded-full hover:bg-orange-500 cursor-pointer"><FaFacebookF /></div>
+              <div className="p-2 bg-gray-700 rounded-full hover:bg-orange-500 cursor-pointer"><FaInstagram /></div>
+              <div className="p-2 bg-gray-700 rounded-full hover:bg-orange-500 cursor-pointer"><FaXTwitter /></div>
+              <div className="p-2 bg-gray-700 rounded-full hover:bg-orange-500 cursor-pointer"><FaWhatsapp /></div>
+              <div className="p-2 bg-gray-700 rounded-full hover:bg-orange-500 cursor-pointer"><FaYoutube /></div>
             </div>
           </div>
 
+          {/* RIGHT SIDE */}
+          <div className="w-full md:w-1/2 flex flex-col justify-between">
+
+            {/* Newsletter */}
+            <div className="mb-8">
+              <h3 className="font-bold text-[18px] mb-3">Stay Updated</h3>
+              <p className="text-sm opacity-80 mb-4">Join our newsletter for latest update and exclusive products.</p>
+
+              <div className="flex flex-col sm:flex-row gap-4">
+                <input
+                  type="email"
+                  placeholder="Your Email Here"
+                  className="flex-1 p-3 rounded-md border border-gray-600 bg-transparent text-sm focus:outline-none focus:border-orange-500"
+                />
+                <button className="px-10 py-3 border rounded-md hover:bg-orange-500 hover:border-orange-500 transition">
+                  Subscribe
+                </button>
+              </div>
+
+              <p className="text-xs opacity-60 mt-3">By subscribing you agree to our privacy policy.</p>
+            </div>
+
+            {/* Suggestions */}
+            <div>
+              <h3 className="font-bold text-[18px] mb-3">Your Suggestion Matters!</h3>
+              <p className="text-sm opacity-80 mb-4">Suggest new courses, subjects or features you'd love to see.</p>
+
+              <textarea
+                rows="5"
+                placeholder="Write Something.."
+                className="w-full p-3 rounded-md border border-gray-600 bg-transparent text-sm focus:outline-none focus:border-orange-500 mb-4"
+              ></textarea>
+
+              <button className="px-10 py-3 border rounded-md hover:bg-orange-500 hover:border-orange-500 transition">
+                Submit
+              </button>
+            </div>
+
+          </div>
+
         </div>
+
       </div>
-     
-       <div className='w-full bg-[#1e2029] text-center text-xs py-3 opacity-60'>
-            <p>&copy; {new Date().getFullYear()} Notebook Global Academy. All Rights Reserved.</p>
-        </div>
+
+      {/* Bottom Bar */}
+      <div className="w-full bg-[#1e2029] text-center text-xs py-3 opacity-60">
+        © {new Date().getFullYear()} Notebook Global Academy. All Rights Reserved.
+      </div>
+
     </footer>
   );
-}
+};
 
 export default Footar;

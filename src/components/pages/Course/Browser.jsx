@@ -9,7 +9,7 @@ const Browser = () => {
   const [activeTab, setActiveTab] = useState("Design");
 
   return (
-    <div className="p-4 md:p-9 mt-30 md:mt-20 lg:mt-2 ">
+    <div className="p-4 md:p-9 mt-50 md:mt-20 lg:mt-27 ">
       <h1 className="font-work-sans font-bold text-[30px] mt-20  text-center leading-[100%] mb-6">
        Browse Our Top Courses
       </h1>
@@ -49,11 +49,6 @@ const Browser = () => {
         ))}
       </div>
 
-      <div className="text-end">
-        <button className="font-urbanist font-medium text-[16px] leading-[24px] mt-5 bg-[#003566] text-white px-6 py-3 rounded-lg hover:bg-purple-900 transition-all duration-300">
-          Explore Course
-        </button>
-      </div>
     </div>
   );
 };

@@ -3,7 +3,7 @@ import testSeriesData from '../../../../public/db/testSeriesData.json';
 
 const Alltest = () => {
   return (
-    <div className="px-4 sm:px-6 lg:px-12 py-6">
+    <div className="px-4  sm:px-6 lg:px-12 py-6">
       <div className="mb-6">
         <h1 className="font-inter font-bold text-[22px] leading-[28px] tracking-[0px] text-gray-900">
           All Test Series

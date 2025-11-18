@@ -55,7 +55,7 @@ const poppins = Poppins({
 
 const mulish = Mulish({
   subsets: ["latin"],
-  weight: ["900"], // Black weight
+  weight: ["400","900"], // Black weight
   variable: "--font-mulish",
 });
 

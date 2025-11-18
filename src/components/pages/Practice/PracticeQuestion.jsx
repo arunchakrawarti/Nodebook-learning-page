@@ -4,7 +4,7 @@ import { FaChevronDown, FaSearch } from 'react-icons/fa';
 const PracticeQuestion = () => {
   return (
     
-    <div className='w-full p-4 md:p-8 lg:px-14 lg:py-10 bg-white'> 
+    <div className='w-full p-4 md:p-8 lg:px-14 lg:py-10 mt-30 bg-white'> 
       
      
       <div className='mb-6'>

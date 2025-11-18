@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Banner = () => {
   return (
-    <div className="relative w-full h-[400px] sm:h-[450px] md:h-[500px] lg:h-[400px]  mx-auto overflow-hidden">
+    <div className="relative top-28 w-full h-[400px] sm:h-[550px] md:h-[500px] lg:h-[400px]  mx-auto overflow-hidden">
       
      
       <Image
@@ -17,7 +17,7 @@ const Banner = () => {
       />
 
      
-      <div className='absolute inset-0 z-10 flex flex-col justify-center items-start text-white p-4 sm:p-8 md:p-12 lg:p-16 xl:p-20'>
+      <div className='absolute  inset-0 z-10 flex flex-col justify-center items-start text-white p-4 sm:p-8 md:p-12 lg:p-16 xl:p-20'>
         
         
         <div className='max-w-full md:max-w-5xl mb-6 md:mb-8'>

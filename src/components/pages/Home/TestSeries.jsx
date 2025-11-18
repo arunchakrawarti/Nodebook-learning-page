@@ -1,6 +1,7 @@
 import React from "react";
 import CardTest from "../../atom/CardTest";
 import testSeriesData from "../../../../public/db/testSeries.json";
+import Link from "next/link";
 
 const TestSeries = () => {
   return (
@@ -39,6 +40,7 @@ const TestSeries = () => {
 
       {/* Explore Button */}
       <div className="flex justify-center md:justify-end mt-10">
+        <Link href='/test-series'>
         <button
           className="
             font-urbanist font-medium
@@ -52,6 +54,7 @@ const TestSeries = () => {
         >
           Explore Test Series
         </button>
+        </Link>
       </div>
     </section>
   );

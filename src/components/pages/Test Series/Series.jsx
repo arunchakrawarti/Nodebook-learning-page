@@ -4,7 +4,7 @@ import { FaChevronDown, FaSearch } from 'react-icons/fa';
 const Series = () => {
   return (
     
-    <div className='w-full p-4 md:p-8 lg:px-14 lg:py-10 bg-white'> 
+    <div className='w-full mt-30 p-4 md:p-8 lg:px-14 lg:py-10 bg-white'> 
       
      
 

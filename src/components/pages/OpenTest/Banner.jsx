@@ -3,9 +3,9 @@ import Image from 'next/image';
 
 const Banner = () => {
   return (
-    <div className="relative top-27 w-full h-[400px] sm:h-[450px] md:h-[500px] lg:h-[420px] xl:h-[400px] overflow-hidden">
+    <div className="relative top-27 w-full h-[400px] sm:h-[450px] md:h-[500px] lg:h-[420px] xl:h-[450px] overflow-hidden">
       
-      {/* Background Image */}
+     
       <Image
         src="/img/Pracyice.png"
         alt="Practice Banner"
@@ -14,10 +14,10 @@ const Banner = () => {
         priority
       />
 
-      {/* CONTENT */}
+      
       <div className="absolute inset-0 flex flex-col justify-center text-white px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20">
 
-        {/* TEXT BLOCK */}
+        
         <div className="max-w-full md:max-w-4xl mb-6 md:mb-8">
           <h3 className="font-mulish font-black uppercase 
             text-[22px] sm:text-[26px] md:text-[32px] lg:text-[36px] xl:text-[40px]
@@ -34,7 +34,7 @@ const Banner = () => {
           </p>
         </div>
 
-        {/* BUTTONS */}
+       
         <div className="flex flex-col sm:flex-row gap-3 sm:gap-5 w-full sm:w-auto">
           
           <button className="w-full sm:w-auto px-6 py-3 
@@ -53,7 +53,7 @@ const Banner = () => {
         </div>
       </div>
 
-      {/* DOTS - always bottom center */}
+      
       <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
         <div className="w-2 h-2 bg-white rounded-full"></div>
         <div className="w-2 h-2 bg-white/50 rounded-full"></div>

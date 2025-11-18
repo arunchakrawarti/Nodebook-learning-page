@@ -5,7 +5,7 @@ import courseData from "../../../../public/db/PopularCourses.json";
 
 const PopularCourse = () => {
   return (
-    <div className="p-4 md:p-12">
+    <div className="p-4 mt-30 md:p-12">
       <h1 className="font-work-sans font-bold text-[30px] leading-[100%] mb-6">
         Popular Courses
       </h1>
@@ -24,9 +24,11 @@ const PopularCourse = () => {
       </div>
 
       <div className="text-end">
+        <Link href='/course'>
         <button className="font-urbanist font-medium text-[16px] leading-[24px] mt-5 bg-[#003566] text-white px-6 py-3 rounded-lg hover:bg-purple-900 transition-all duration-300">
           Explore Course
         </button>
+        </Link>
       </div>
     </div>
   );

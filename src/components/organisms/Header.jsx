@@ -11,23 +11,13 @@ const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <div className="w-full">
+    <div className="w-full fixed z-50">
       <div
-        className="
-  h-auto py-2
-  flex flex-col sm:flex-row 
-  items-center justify-center 
-  bg-[#003566] 
-  gap-2 sm:gap-4 
-  px-3 sm:px-6
-  text-center
+        className="h-auto py-2 flex flex-col sm:flex-row items-center justify-center bg-[#003566] gap-2 sm:gap-4 px-3 sm:px-6 text-center
 "
       >
         <p
-          className="
-    font-bold 
-    text-[13px] sm:text-[16px] md:text-[18px] 
-    text-yellow-300
+          className="font-bold text-[13px] sm:text-[16px] md:text-[18px] text-yellow-300
   "
         >
           Follow Us To Get Latest Update →
@@ -87,10 +77,14 @@ const Header = () => {
             <Link href='/test-series'>
             <li className="hover:text-blue-700 cursor-pointer">Test Series</li>
             </Link>
+           <Link href='/open-test'>
             <li className="hover:text-blue-700 cursor-pointer">Open Test</li>
+           </Link>
+           <Link href='/study-material'>
             <li className="hover:text-blue-700 cursor-pointer">
               Study Materials
             </li>
+           </Link>
           </ul>
           <div className="hidden lg:flex items-center gap-4">
             <Image src="/img/search.png" height={20} width={20} alt="Search" />
@@ -138,25 +132,35 @@ const Header = () => {
                 </button>
               </div>
 
-              <ul className="flex flex-col p-4 gap-4 font-urbanist text-[16px] leading-[24px] text-center">
-                <li className="hover:text-blue-700 cursor-pointer">Home</li>
-                <li className="hover:text-blue-700 cursor-pointer">Courses</li>
-                <li className="hover:text-blue-700 cursor-pointer">Practice</li>
-                <li className="hover:text-blue-700 cursor-pointer">
-                  Current Affairs
-                </li>
-                <li className="hover:text-blue-700 cursor-pointer">
-                  Ask Doubt
-                </li>
-                <li className="hover:text-blue-700 cursor-pointer">
-                  Test Series
-                </li>
-                <li className="hover:text-blue-700 cursor-pointer">
-                  Open Test
-                </li>
-                <li className="hover:text-blue-700 cursor-pointer">
-                  Study Materials
-                </li>
+              <ul className="flex flex-col p-4 gap-4 font-urbanist text-[16px] leading-[24px]">
+                <Link href="/">
+              <li className="hover:text-blue-700 cursor-pointer">Home</li>
+            </Link>
+            <Link href="/course">
+              <li className="hover:text-blue-700 cursor-pointer">Courses</li>
+            </Link>
+            <Link href="/Practices">
+              <li className="hover:text-blue-700 cursor-pointer">Practice</li>
+            </Link>
+            <Link href="/current-affairs">
+              <li className="hover:text-blue-700 cursor-pointer">
+                Current Affairs
+              </li>
+            </Link>
+            <Link href='/ask-doubt'>
+            <li className="hover:text-blue-700 cursor-pointer">Ask Doubt</li>
+            </Link>
+            <Link href='/test-series'>
+            <li className="hover:text-blue-700 cursor-pointer">Test Series</li>
+            </Link>
+                <Link href='/open-test'>
+            <li className="hover:text-blue-700 cursor-pointer">Open Test</li>
+           </Link>
+           <Link href='/study-material'>
+            <li className="hover:text-blue-700 cursor-pointer">
+              Study Materials
+            </li>
+           </Link>
               </ul>
             </div>
           </>

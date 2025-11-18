@@ -6,7 +6,7 @@ const PopularCard1 = ({ img, title, subtitle, price, originalPrice, badges, rati
     <div className="w-full bg-white rounded-lg shadow-md overflow-hidden 
                     border border-gray-100 hover:shadow-lg transition">
 
-      <div className="relative w-full h-[150px] sm:h-[170px] md:h-[180px]">
+      <div className="relative w-full h-[150px] sm:h-[170px] md:h-[165px]">
         <Image src={img} alt={title} fill className="object-cover" />
 
         <div className="absolute top-2 left-2 flex flex-wrap gap-1">
@@ -37,7 +37,7 @@ const PopularCard1 = ({ img, title, subtitle, price, originalPrice, badges, rati
         <div className="flex justify-between items-center">
 
           <div className="text-xs text-yellow-500 flex items-center">
-            ⭐⭐⭐⭐⭐ <span className="ml-1">{rating}</span>
+            ⭐⭐⭐⭐⭐
             <span className="text-gray-500 ml-1">({reviews})</span>
           </div>
 

@@ -10,7 +10,7 @@ const Trending = () => {
   return (
     <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-10 py-10 sm:py-12 lg:py-16">
 
-     
+      {/* Heading */}
       <h1 className="
         font-inter font-bold text-[26px] sm:text-[30px] lg:text-[36px] 
         leading-tight text-center text-[#1A202C] mb-8 sm:mb-10 lg:mb-12
@@ -18,11 +18,11 @@ const Trending = () => {
         Trending Courses
       </h1>
 
-     
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8">
+      {/* Equal Width Grid */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
 
-       
-        <div className="col-span-12 lg:col-span-5">
+        {/* LEFT SECTION - LARGE CARD */}
+        <div className="w-full">
           {largeCardData && (
             <LargeTrendingCard
               img={largeCardData.img}
@@ -32,8 +32,8 @@ const Trending = () => {
           )}
         </div>
 
-        {/* RIGHT SMALL CARDS */}
-        <div className="col-span-12 lg:col-span-7">
+        {/* RIGHT SECTION - SMALL CARDS */}
+        <div className="w-full">
           <div
             className="
               grid 
