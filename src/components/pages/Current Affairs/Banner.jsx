@@ -20,7 +20,7 @@ const Banner = () => {
       <div className='absolute  inset-0 z-10 flex flex-col justify-center items-start text-white p-4 sm:p-8 md:p-12 lg:p-16 xl:p-20'>
         
         
-        <div className='max-w-full md:max-w-5xl mb-6 md:mb-8'>
+        <div className='max-w-full md:max-w-4xl mb-6 md:mb-8'>
           
          
           <h3 className="font-mulish font-black text-[24px] sm:text-[28px] md:text-[32px] lg:text-[36px] xl:text-[40px] leading-[28px] sm:leading-[32px] md:leading-[36px] lg:leading-[40px] tracking-[1%] uppercase mb-3">
