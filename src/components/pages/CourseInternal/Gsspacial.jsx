@@ -14,6 +14,7 @@ import {
   UserIcon,
   ArrowRightIcon
 } from "@heroicons/react/24/outline";
+import Link from "next/link";
 
 const Gsspacial = () => {
 
@@ -171,9 +172,11 @@ const Gsspacial = () => {
               </li>
             </ul>
 
+            <Link href='/Login'>
             <button className="w-full bg-[#0c0855] text-white py-3 rounded-lg font-bold text-lg">
               Buy Now
             </button>
+            </Link>
           </div>
         </div>
 

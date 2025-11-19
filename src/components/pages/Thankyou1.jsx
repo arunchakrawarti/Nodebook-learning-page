@@ -1,7 +1,6 @@
-import Link from 'next/link';
 import React from 'react';
 
-const Thankyou = () => {
+const Thankyou1 = () => {
   return (
     <div className="min-h-screen pt-27 bg-blue-600 flex flex-col items-center justify-center p-4 text-white text-center">
       <div className="w-full max-w-4xl flex flex-col items-center justify-center space-y-6 md:space-y-8">
@@ -22,22 +21,12 @@ const Thankyou = () => {
           have a nice day
         </p>
 
-        <div className="flex flex-col md:flex-row gap-4 md:gap-8 mt-8 w-full max-w-md">
-         <Link href='/course-internal'>
+        <div className="text-center gap-4 md:gap-8 mt-8 w-full max-w-lg">
           <button 
             className="w-full md:w-1/2 px-4 py-3 bg-white text-blue-600 font-medium text-lg md:text-xl rounded-lg shadow-lg hover:bg-gray-100 transition duration-200"
           >
             Continue To Website
           </button>
-         </Link>
-
-          <Link href='Login'>
-          <button 
-            className="w-full md:w-1/2 px-4 py-3 bg-white text-blue-600 font-medium text-lg md:text-xl rounded-lg shadow-lg border-2 border-blue-600 hover:bg-gray-100 transition duration-200"
-          >
-            Download App
-          </button>
-          </Link>
         </div>
 
       </div>
@@ -45,4 +34,4 @@ const Thankyou = () => {
   );
 };
 
-export default Thankyou;
+export default Thankyou1;

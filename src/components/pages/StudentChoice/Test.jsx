@@ -1,6 +1,7 @@
 import React from "react";
 import CardTest from "../../atom/CardTest";
 import testSeriesData from "../../../../public/db/testSeries.json";
+import Link from "next/link";
 
 const Test = () => {
   return (
@@ -36,13 +37,15 @@ const Test = () => {
 
       {/* Explore Button */}
       <div className="flex justify-center md:justify-end mt-10">
+       <Link href='test-series'>
         <button className="
           font-urbanist font-medium text-sm sm:text-base
-          bg-[#003566] text-white px-5 sm:px-6 py-2 sm:py-3
+          bg-[#003566] text-yellow-500 text-white px-5 sm:px-6 py-2 sm:py-3
           rounded-lg hover:bg-opacity-90 transition-all duration-300
         ">
           Explore Test Series
         </button>
+       </Link>
       </div>
     </section>
   );

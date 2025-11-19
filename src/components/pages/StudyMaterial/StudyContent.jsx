@@ -1,5 +1,6 @@
 import React from 'react'
 import StudyCard from '../../atom/StudyCard'
+import Link from 'next/link';
 
 const StudyContent = () => {
   let arr = [
@@ -23,7 +24,9 @@ const StudyContent = () => {
       
       <div className="mt-5 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6">
         {arr.map((item, i) => (
+         <Link href='/study-material-category'>
           <StudyCard key={i} img={item.img} title={item.title} />
+         </Link>
         ))}
       </div>
     </div>

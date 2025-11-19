@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const ConceptBuilder = () => {
@@ -8,12 +9,14 @@ const ConceptBuilder = () => {
   Continue Practice
 </h1>
       <div className="w-full mt-3 relative h-[0] pb-[52%] sm:pb-[50%] md:pb-[52%] rounded-xl">
+        <Link href='test-seriess/#footar'>
         <Image
           src="/img/Test.png"
           alt="All India Govt Exam Banner"
           fill
           className="object-contain"
         />
+        </Link>
       </div>
 
       <h1 className="mt-4 font-inter font-medium text-[16px] ml-3 sm:text-[16px] md:text-[18px] leading-[24px] sm:leading-[24px] md:leading-[26px] tracking-[0px]">

@@ -1,34 +1,3 @@
-// import Image from 'next/image'
-// import React from 'react'
-
-// const TesCard = ({ img, title, description }) => {
-//   return (
-//     <div className="border border-gray-300 rounded-xl p-6 flex flex-col items-center text-center bg-white shadow-sm hover:shadow-md transition">
-      
-//       <Image
-//         src={img}
-//         height={42}
-//         width={42}
-//         alt='icon'
-//         className="mb-4"
-//       />
-
-//       <p className="font-poppins font-semibold text-[24px] sm:text-[28px] leading-[130%] tracking-[-1%]">
-//         {title}
-//       </p>
-
-//       <p className="font-mulish font-normal text-[15px] sm:text-[16px] leading-[150%] mt-2">
-//         {description}
-//       </p>
-
-//     </div>
-//   )
-// }
-
-// export default TesCard
-
-
-
 import Image from 'next/image'
 import React from 'react'
 

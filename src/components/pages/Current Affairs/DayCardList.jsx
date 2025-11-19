@@ -1,10 +1,10 @@
 import React from "react";
 import DayCard from "../../atom/DayCard";
 import TrendingCard from "../../atom/TrendingCard";
-
 import dayCardData from "../../../../public/db/dayCardData.json";
 import trendingData1 from "../../../../public/db/trendingData1.json";
 import availableDatesData from "../../../../public/db/availableDatesData.json";
+import Link from "next/link";
 
 const DayCardList = () => {
   const { heading, data: monthList } = availableDatesData;
@@ -29,12 +29,14 @@ const DayCardList = () => {
 
             <div className="flex flex-col items-center gap-6   ">
               {dayCardData.slice(...section.range).map((card, idx) => (
+                <Link href='/current-affairs-internal/#contents'>
                 <DayCard
                   key={`day-${i}-${idx}`}
                   imgSrc={card.imgSrc}
                   title={card.title}
                   description={card.description}
                 />
+                </Link>
               ))}
             </div>
           </div>

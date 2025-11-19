@@ -3,8 +3,8 @@ import Banner from './Banner'
 import Purchased from './Purchased'
 import StudyContent from './StudyContent'
 import Mobile from './Mobile'
-import Material from './Material'
 import Learning from './Learning'
+import Material1 from './Material1'
 
 const Study = () => {
   return (
@@ -13,7 +13,7 @@ const Study = () => {
       <Purchased/>
       <StudyContent/>
       <Mobile/>
-      <Material/>
+      <Material1/>
       <Learning/>
     </div>
   )

@@ -2,8 +2,8 @@ import React from "react";
 
 const Content1 = () => {
   return (
-    <div className="w-full max-w-[1100px] px-4 sm:px-6 lg:px-10 py-6 flex flex-col gap-6">
-
+    <div id="contents" className="w-full max-w-[1100px] px-4  sm:px-6 lg:px-10 py-6 flex flex-col gap-6">
+       <h1 className="font-inter text-[22px] font-bold">How to Crack Any Competitive Exam: The Ultimate Success Blueprint for 2025</h1>
       {/* Step 1 */}
       <h2 className="text-[18px] font-extrabold mt-6 mb-2">
         Step 1: Understand the Exam Before You Start

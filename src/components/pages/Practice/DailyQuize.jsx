@@ -1,6 +1,7 @@
 import React from 'react';
 import PriviousCard from '../../atom/PriviousCard'; 
 import testData from '../../../../public/db/testData.json';
+import Link from 'next/link';
 
 const DailyQuize = () => {
   return (
@@ -11,6 +12,7 @@ const DailyQuize = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6 md:gap-8">
         {testData.map((test) => (
+          <Link href='/Login'>
           <PriviousCard
             key={test.id}
             img={test.imgSrc}
@@ -18,6 +20,7 @@ const DailyQuize = () => {
             questions={test.questions}
             description={test.description}
           />
+          </Link>
         ))}
       </div>
       <div className='flex justify-end mt-5'>

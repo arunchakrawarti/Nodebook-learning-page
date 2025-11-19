@@ -13,7 +13,7 @@ import { FaXTwitter } from 'react-icons/fa6';
 
 const Footar = () => {
   return (
-    <footer className="w-full bg-[#272a39] text-white">
+    <footer id='footar' className="w-full bg-[#272a39] text-white">
       
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 md:px-10 lg:px-12 py-10">
 
@@ -301,3 +301,122 @@ const Footar = () => {
 };
 
 export default Footar;
+
+
+
+
+// import React from "react";
+// import Image from "next/image";
+// import { Mail, Phone, MapPin } from "lucide-react";
+
+// const Footer = () => {
+//   return (
+//     <footer className="bg-[#1E1E2F] text-white py-10 px-6 md:px-12 lg:px-20">
+//       {/* Grid Container */}
+//       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-10">
+//         {/* Quick Links */}
+//         <div>
+//           <h3 className="font-semibold text-lg mb-4">Quick Links</h3>
+//           <ul className="space-y-2 text-sm text-gray-300">
+//             <li>About Us</li>
+//             <li>Courses</li>
+//             <li>Contact</li>
+//             <li>Online Test Series</li>
+//             <li>Study Material</li>
+//           </ul>
+//         </div>
+
+//         {/* NBCA */}
+//         <div>
+//           <h3 className="font-semibold text-lg mb-4">N.B.C.A</h3>
+//           <ul className="space-y-2 text-sm text-gray-300">
+//             <li>About</li>
+//             <li>Events</li>
+//             <li>Gallery</li>
+//             <li>Results</li>
+//             <li>Terms & Conditions</li>
+//           </ul>
+//         </div>
+
+//         {/* Student Choice */}
+//         <div>
+//           <h3 className="font-semibold text-lg mb-4">Student Choice</h3>
+//           <ul className="space-y-2 text-sm text-gray-300">
+//             <li>SSC CGL</li>
+//             <li>SSC CHSL</li>
+//             <li>Banking</li>
+//             <li>Railway</li>
+//             <li>UPSC</li>
+//           </ul>
+//         </div>
+
+//         {/* Popular Test Series */}
+//         <div>
+//           <h3 className="font-semibold text-lg mb-4">Popular Test Series</h3>
+//           <ul className="space-y-2 text-sm text-gray-300">
+//             <li>SSC CGL Test Series</li>
+//             <li>SSC CHSL Test Series</li>
+//             <li>UPSC Prelims</li>
+//             <li>Railway NTPC</li>
+//             <li>Bank PO</li>
+//           </ul>
+//         </div>
+
+//         {/* UPSC */}
+//         <div>
+//           <h3 className="font-semibold text-lg mb-4">UPSC</h3>
+//           <ul className="space-y-2 text-sm text-gray-300">
+//             <li>UPSC Online (Hindi)</li>
+//             <li>UPSC Online (English)</li>
+//             <li>GS Paper</li>
+//             <li>Essay</li>
+//             <li>CSAT</li>
+//           </ul>
+//         </div>
+
+//         {/* States */}
+//         <div>
+//           <h3 className="font-semibold text-lg mb-4">State PCS</h3>
+//           <ul className="space-y-2 text-sm text-gray-300">
+//             <li>UPPCS</li>
+//             <li>BPSC</li>
+//             <li>MPPSC</li>
+//             <li>RAS</li>
+//             <li>UKPSC</li>
+//           </ul>
+//         </div>
+//       </div>
+
+//       {/* Address */}
+//       <div className="mt-12 flex flex-col md:flex-row items-start md:items-center gap-6">
+//         <Image src="/img/logo.png" alt="Logo" width={80} height={80} />
+//         <p className="text-gray-300 text-sm leading-6 max-w-xl">
+//           A-ward Building Behind Durga Chauraha Near Shubham Chowk, Maharajganj,
+//           Uttar Pradesh 110009
+//         </p>
+//       </div>
+
+//       {/* Contact */}
+//       <div className="mt-6 text-gray-300 text-sm">
+//         <p className="flex items-center gap-2"><Phone size={16}/> +91 6200160243</p>
+//         <p className="flex items-center gap-2"><Mail size={16}/> contact@nbcacademy.com</p>
+//         <p className="flex items-center gap-2"><MapPin size={16}/> Maharajganj, UP</p>
+//       </div>
+
+//       {/* Social Icons */}
+//       <div className="flex gap-4 mt-4">
+//         <Image src="/img/fb.png" alt="fb" width={24} height={24} />
+//         <Image src="/img/insta.png" alt="insta" width={24} height={24} />
+//         <Image src="/img/x.png" alt="twitter" width={24} height={24} />
+//         <Image src="/img/yt.png" alt="youtube" width={24} height={24} />
+//       </div>
+
+//       {/* Bottom */}
+//       <div className="mt-10 border-t border-gray-700 pt-4 text-center text-gray-400 text-sm">
+//         © 2025 NBCA. All Rights Reserved.
+//       </div>
+//     </footer>
+//   );
+// };
+
+// export default Footer;

@@ -2,7 +2,9 @@ import React from "react";
 
 const Details = () => {
   return (
-    <div className="w-full max-w-[1280]  p-4 sm:p-6 md:p-10 leading-[1.6] text-[#000] text-[15px]">
+    <div
+    id="detail"
+     className="w-full max-w-[1280]  p-4 sm:p-6 md:p-10 leading-[1.6] text-[#000] text-[15px]">
 
       <p className="mb-4">
         GS SPECIAL 2.0 VISION FOUNDATION BATCH 2025–26 एक ऐसा विशेष कोर्स है जो सभी प्रमुख सरकारी परीक्षाओं —
@@ -47,14 +49,10 @@ const Details = () => {
         करंट अफेयर्स स्टूडेंट्स को परीक्षा में पूछे जाने वाले प्रश्नों तथा समसामयिक घटनाओं से अवगत कराने में सबसे महत्वपूर्ण हिस्सा रहता है।
         इसी कारण विद्यार्थियों के लिए इसका उचित विश्लेषण एवं परिणामकारी सामग्री को शामिल किया गया है।
       </p>
-
-      {/* ----------------- PDF Notes ----------------- */}
       <h3 className="font-semibold mb-2">स्टडी मटेरियल एवं PDF नोट्स :</h3>
       <p className="mb-6">
         सभी क्लासेस के साथ-साथ विद्यार्थियों को क्लास रिकॉर्डिंग वीडियो और प्रिंटेबल PDF नोट्स उपलब्ध कराए जाएंगे, जिससे वे किसी भी समय पुनरावलोकन कर सकें।
       </p>
-
-      {/* ----------------- Key Highlights ----------------- */}
       <h2 className="font-semibold text-[17px] mb-3">मुख्य विशेषताएं (Key Highlights)</h2>
 
       <ul className="list-disc ml-5 space-y-2">

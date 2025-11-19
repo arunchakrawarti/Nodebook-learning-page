@@ -5,7 +5,7 @@ const Learn = () => {
   return (
     <div className="relative top-27 w-full h-[500px] md:h-[550px] bg-gray-900 overflow-visible">
 
-      {/* Background Image */}
+      
       <Image
         src="/img/Course.png"
         fill
@@ -14,7 +14,6 @@ const Learn = () => {
       />
       <div className="absolute inset-0 bg-black/50"></div>
 
-      {/* CENTER TEXT */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full px-4 text-white">
         <h1 className="font-sans font-extrabold text-4xl sm:text-5xl md:text-6xl text-center mb-3 leading-tight">
           Learn something new everyday.

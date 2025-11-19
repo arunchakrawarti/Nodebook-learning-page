@@ -22,7 +22,7 @@ const Competitive = () => {
   ];
 
   return (
-    <div className="w-full px-4 md:px-8 flex flex-col lg:flex-row gap-6 mt-2">
+    <div className="w-full px-4 md:px-8 flex flex-col lg:flex-row gap-6 pt-33 md:pt-30 lg:pt-27">
 
       {/* LEFT SIDE IMAGE SECTION */}
       <div className="w-full lg:w-[70%]  rounded-md overflow-hidden">

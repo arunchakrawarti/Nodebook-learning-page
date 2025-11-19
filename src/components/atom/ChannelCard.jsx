@@ -13,7 +13,7 @@ const ChannelCard = ({ img, title }) => {
           layout="fill"
           objectFit="cover"
         />
-        <div className="absolute top-2 left-2 sm:top-18 sm:left-35  lg:top-16 lg:left-30">
+        <div className="absolute top-15 left-25 sm:top-18 sm:left-35  lg:top-16 lg:left-30">
           <Image
             src="/img/Channelogo.png"
             width={50}

@@ -31,8 +31,8 @@ const workSans = Work_Sans({
 
 const montserrat = Montserrat({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"], // required weights
-  variable: "--font-montserrat", // CSS variable for Tailwind
+  weight: ["400", "500", "600", "700"], 
+  variable: "--font-montserrat",
 });
 
 const urbanist = Urbanist({
@@ -55,13 +55,13 @@ const poppins = Poppins({
 
 const mulish = Mulish({
   subsets: ["latin"],
-  weight: ["400","900"], // Black weight
+  weight: ["400","900"],
   variable: "--font-mulish",
 });
 
 const manrope = Manrope({
   subsets: ["latin"],
-  weight: ["700"], // Bold
+  weight: ["700"], 
   variable: "--font-manrope",
 });
 

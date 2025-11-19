@@ -3,7 +3,7 @@ import React from 'react'
 
 const Payment = () => {
   return (
-    <div>
+    <div className='pt-27'>
       <Image
       src="/img/Payment.png"
       height={780}

@@ -1,25 +1,26 @@
 import React from 'react'
 import TesCard from '../../atom/TesCard'
+import Link from 'next/link'
 
-const Material = () => {
+const Material1 = () => {
   let arr = [
     {
       img: "/img/Open.png",
       title: "Expert-Curated Content",
       description: "Our study materials are designed by top educators and exam experts to match the latest syllabus and exam trends. Get clear, concise, and exam-ready notes that make learning faster and smarter.",
-      bgColor: "#E8EEFF"
+      bgColor: "#FEE2E2"
     },
     {
       img: "/img/Open1.png",
       title: "Smart Analysis",
       description: "Simplified explanations and visuals help you grasp tough concepts in minutes.Perfect for self-study and last-minute revisions without confusion.",
-      bgColor: "#FFF3D6"
+      bgColor: "#DCFCE7"
     },
     {
       img: "/img/Open2.png",
       title: "Proven Exam Success",
       description: "Thousands of toppers trust our study material for consistent results.  Boost your confidence with structured learning that delivers real outcomes.",
-      bgColor: "#FFF3D6"
+      bgColor: "#FEF9C3"
     }
   ]
 
@@ -46,4 +47,4 @@ const Material = () => {
   )
 }
 
-export default Material
+export default Material1

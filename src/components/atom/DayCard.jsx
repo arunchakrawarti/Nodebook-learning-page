@@ -20,7 +20,6 @@ const DayCard = ({
         gap-3 sm:gap-4
       "
     >
-      {/* Image */}
       <div
         className="
           relative 
@@ -41,10 +40,7 @@ const DayCard = ({
           priority
         />
       </div>
-
-      {/* Text Section */}
       <div className="flex flex-col justify-center w-full">
-        {/* Title */}
         <p
           className="
             font-urbanist font-semibold 

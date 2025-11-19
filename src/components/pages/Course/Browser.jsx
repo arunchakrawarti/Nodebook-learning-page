@@ -1,20 +1,19 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import PopularCard from "../../atom/PopularCard";
 import courseData from "../../../../public/db/PopularCourses.json";
 
 const Browser = () => {
-
-     const tabs = ["Design", "Developer", "Business", "Marketing", "Photography"];
+  const tabs = ["Design", "Developer", "Business", "Marketing", "Photography"];
   const [activeTab, setActiveTab] = useState("Design");
 
   return (
     <div className="p-4 md:p-9 mt-50 md:mt-20 lg:mt-27 ">
-      <h1 className="font-work-sans font-bold text-[30px] mt-20  text-center leading-[100%] mb-6">
-       Browse Our Top Courses
+      <h1 className="font-work-sans font-bold text-[30px] mt-20  text-center text-black leading-[100%] mb-6">
+        Browse Our Top Courses
       </h1>
 
-       <div className="flex justify-center mb-10 overflow-x-auto whitespace-nowrap">
+      <div className="flex justify-center mb-10 overflow-x-auto whitespace-nowrap">
         <div className="flex space-x-8 border-b border-gray-200">
           {tabs.map((tab) => (
             <button
@@ -34,20 +33,14 @@ const Browser = () => {
           ))}
         </div>
       </div>
-      
 
-      <div className="flex flex-wrap justify-between gap-y-6">
-        {courseData.map((course, index) => (
-          <PopularCard
-            key={index}
-            img={course.img}
-            title={course.title}
-            price={course.price}
-            originalPrice={course.originalPrice}
-            badges={course.badges}
-          />
-        ))}
-      </div>
+     <div className="flex flex-wrap justify-between gap-y-6">
+  {courseData.map((course, index) => (
+    <PopularCard key={index} {...course} />
+  ))}
+</div>
+
+
 
     </div>
   );
