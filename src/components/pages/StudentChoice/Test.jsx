@@ -40,7 +40,7 @@ const Test = () => {
        <Link href='test-series'>
         <button className="
           font-urbanist font-medium text-sm sm:text-base
-          bg-[#003566] text-yellow-500 text-white px-5 sm:px-6 py-2 sm:py-3
+          bg-[linear-gradient(96.18deg,#C83300_-2.22%,#E35545_48.89%,#FFA98B_100%)] text-white text-white px-5 sm:px-6 py-2 sm:py-3
           rounded-lg hover:bg-opacity-90 transition-all duration-300
         ">
           Explore Test Series

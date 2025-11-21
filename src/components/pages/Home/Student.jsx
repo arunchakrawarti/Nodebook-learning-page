@@ -23,7 +23,7 @@ const Student = () => {
      
       <div className="flex justify-center md:justify-end mt-10">
         <Link href='/student-choices'>
-        <button className="font-urbanist font-medium text-[15px] sm:text-[16px] leading-[24px] bg-[#003566] text-white px-5 sm:px-6 py-2.5 sm:py-3 rounded-lg hover:bg-purple-900 transition-all duration-300">
+        <button className="font-urbanist font-medium text-[15px] sm:text-[16px] leading-[24px] bg-[linear-gradient(96.18deg,#C83300_-2.22%,#E35545_48.89%,#FFA98B_100%)] text-white px-5 sm:px-6 py-2.5 sm:py-3 rounded-lg hover:bg-purple-900 transition-all duration-300">
           Explore Course
         </button>
         </Link>

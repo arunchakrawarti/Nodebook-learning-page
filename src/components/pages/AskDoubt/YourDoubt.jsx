@@ -43,14 +43,14 @@ const YourDoubt = () => {
         </div>
       <div
   className="
-    bg-[#003566] text-[#FFDD33] mt-10
+    bg-[linear-gradient(96.18deg,#C83300_-2.22%,#E35545_48.89%,#FFA98B_100%)] text-white mt-10
     w-full sm:w-auto 
     py-3 px-4 sm:px-6
     rounded-md flex items-center justify-center gap-2
     cursor-pointer
   "
 >
-  <button className="font-medium text-[14px] sm:text-[16px] md:text-[18px]">
+  <button className="font-medium text-[14px] sm:text-[16px]  md:text-[18px]">
     Submit Doubt
   </button>
 

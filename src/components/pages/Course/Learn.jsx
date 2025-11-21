@@ -3,7 +3,7 @@ import React from 'react';
 
 const Learn = () => {
   return (
-    <div className="relative top-27 w-full h-[500px] md:h-[550px] bg-gray-900 overflow-visible">
+    <div className="relative top-25 w-full h-[500px] md:h-[550px] bg-gray-900 overflow-visible">
 
       
       <Image

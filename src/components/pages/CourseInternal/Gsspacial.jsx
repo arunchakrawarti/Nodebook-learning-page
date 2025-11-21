@@ -30,7 +30,7 @@ const Gsspacial = () => {
   const CurriculumItem = ({ section, videos, notes }) => (
     <div className="p-4 rounded-lg bg-gray-50 mb-3">
       <span className="font-medium text-gray-800">{section}</span>
-      <div className="flex space-x-4 text-sm text-gray-600 mt-2">
+      <div className="flex space-x-15 text-sm text-gray-600 mt-2">
         <div className="flex items-center space-x-1">
           <CiYoutube className="w-4 h-4" />
           <span>{videos} Videos</span>
@@ -103,7 +103,23 @@ const Gsspacial = () => {
                 <CurriculumItem key={index} {...item} />
               ))}
             </div>
+             <div className="shadow p-4 rounded-lg mt-2">
+              {courseDetails.curriculum.map((item, index) => (
+                <CurriculumItem key={index} {...item} />
+              ))}
+            </div>
+             <div className="shadow p-4 rounded-lg mt-2">
+              {courseDetails.curriculum.map((item, index) => (
+                <CurriculumItem key={index} {...item} />
+              ))}
+            </div>
+             <div className="shadow p-4 rounded-lg mt-2">
+              {courseDetails.curriculum.map((item, index) => (
+                <CurriculumItem key={index} {...item} />
+              ))}
+            </div>
           </div>
+          
 
           {/* Faculty */}
           <div>
@@ -173,7 +189,7 @@ const Gsspacial = () => {
             </ul>
 
             <Link href='/Login'>
-            <button className="w-full bg-[#0c0855] text-white py-3 rounded-lg font-bold text-lg">
+            <button className="w-full bg-[linear-gradient(96.18deg,#C83300_-2.22%,#E35545_48.89%,#FFA98B_100%)] text-white py-3 rounded-lg font-bold text-lg">
               Buy Now
             </button>
             </Link>

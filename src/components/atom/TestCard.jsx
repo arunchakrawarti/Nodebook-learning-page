@@ -21,7 +21,7 @@ const TestCard = ({ title, description, currentPrice, originalPrice, imgSrc, img
               <span className="font-bold text-lg sm:text-xl text-gray-900">{currentPrice}</span>
               <span className="font-normal text-sm sm:text-base text-gray-500 line-through">{originalPrice}</span>
             </div>
-            <button className="bg-[#0f4d7f] hover:bg-[#0c3c63] text-[#FFD60A] font-semibold py-2 px-4 rounded text-sm transition-colors shadow-md">
+            <button className="bg-[linear-gradient(96.18deg,#C83300_-2.22%,#E35545_48.89%,#FFA98B_100%)] text-white  font-semibold py-2 px-4 rounded text-sm transition-colors shadow-md">
               Enroll Now
             </button>
           </div>

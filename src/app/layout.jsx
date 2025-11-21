@@ -23,6 +23,10 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+
+
+
+
 const workSans = Work_Sans({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
@@ -75,7 +79,7 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${mulish.variable} ${poppins.variable} ${manrope.variable} ${geistMono.variable} ${workSans.variable} ${urbanist.variable} ${montserrat.variable} ${inter.variable}`}
+      className={`${geistSans.variable} ${mulish.variable} ${poppins.variable} ${manrope.variable} ${geistMono.variable} ${workSans.variable} ${urbanist.variable} ${montserrat.variable}  ${inter.variable}`}
     >
       <body className="antialiased bg-white text-gray-900">
         <Header />

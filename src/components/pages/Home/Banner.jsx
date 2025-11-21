@@ -26,7 +26,7 @@ const Banner = () => {
   }, [direction]);
 
   return (
-    <div className="relative w-full overflow-hidden top-27 bg-black h-[430px] flex items-center justify-center">
+    <div className="relative w-full overflow-hidden top-25 bg-black h-[430px] flex items-center justify-center">
       {/* Banner Images */}
       <div
         className="flex transition-transform duration-1000 ease-in-out h-full"

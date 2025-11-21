@@ -52,11 +52,6 @@ const Upcoming = () => {
         ))}
       </div>
 
-      <div className="text-end">
-        <button className="font-urbanist font-medium text-[16px] leading-[24px] mt-5 bg-[#003566] text-white px-6 py-3 rounded-lg hover:bg-purple-900 transition-all duration-300">
-          Explore Course
-        </button>
-      </div>
     </div>
   );
 };

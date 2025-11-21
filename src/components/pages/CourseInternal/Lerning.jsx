@@ -1,12 +1,11 @@
 import React from "react";
 import Image from "next/image";
 
-const Lerning = () => {
+const Learning = () => {
   return (
-    <section className="flex flex-col lg:flex-row w-full mx-auto h-auto px-4 sm:px-6 lg:px-12 py-10 lg:py-16 items-center gap-10 lg:gap-0">
+    <section className="flex flex-col lg:flex-row w-full h-auto py-10 lg:py-16 items-center gap-10 lg:gap-0">
       
-      {/* Left Section - Text Content */}
-      <div className="w-full lg:w-1/2 flex flex-col justify-center text-left">
+      <div className="w-full lg:w-1/2 flex flex-col justify-center px-4 sm:px-6 lg:px-12 text-left">
         <p className="font-urbanist font-semibold text-[28px] sm:text-[34px] md:text-[40px] leading-[38px] sm:leading-[46px] md:leading-[51.84px] text-gray-900 mb-4">
           The most trusted learning platform on your phone
         </p>
@@ -16,7 +15,6 @@ const Lerning = () => {
           Take the next step toward achieving your professional and personal objectives.
         </span>
 
-        {/* Buttons/Logos */}
         <div className="flex flex-wrap gap-4 sm:gap-6 items-center">
           <Image
             src="/img/Most.png"
@@ -34,9 +32,8 @@ const Lerning = () => {
           />
         </div>
       </div>
-
-      {/* Right Section - Image */}
-      <div className="w-full lg:w-1/2 flex justify-center">
+      
+      <div className="w-full lg:w-1/2 flex justify-center lg:justify-end lg:-mr-12">
         <Image
           src="/img/Most2.png"
           height={600}
@@ -49,4 +46,4 @@ const Lerning = () => {
   );
 };
 
-export default Lerning;
+export default Learning;

@@ -45,7 +45,7 @@ const TestSeries = () => {
           className="
             font-urbanist font-medium
             text-sm sm:text-base
-            bg-[#003566] text-white
+            bg-[linear-gradient(96.18deg,#C83300_-2.22%,#E35545_48.89%,#FFA98B_100%)] text-white
             px-6 py-3
             rounded-lg
             hover:bg-opacity-90

@@ -24,7 +24,7 @@ const DailyQuize = () => {
         ))}
       </div>
       <div className='flex justify-end mt-5'>
-        <button className='bg-[#003566] rounded-md px-5 py-3 text-amber-500'>
+        <button className='bg-[linear-gradient(96.18deg,#C83300_-2.22%,#E35545_48.89%,#FFA98B_100%)] rounded-md px-5 py-3 text-white'>
         Explore Question
       </button>
       </div>

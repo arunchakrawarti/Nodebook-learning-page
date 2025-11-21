@@ -15,7 +15,7 @@ const Banner = () => {
       />
 
       
-      <div className="absolute inset-0 flex flex-col justify-center text-white px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20">
+      <div className="absolute inset-0 flex flex-col justify-center text-white px-4 sm:px-8 md:px-12 lg:px-16 xl:px-14">
 
         
         <div className="max-w-full md:max-w-3xl mb-6 md:mb-8">

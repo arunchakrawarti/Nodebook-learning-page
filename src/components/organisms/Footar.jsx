@@ -17,12 +17,11 @@ const Footar = () => {
       
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 md:px-10 lg:px-12 py-10">
 
-        {/* ---------------- TOP GRID ---------------- */}
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-y-10 gap-x-6 pb-10 border-b border-gray-600">
 
-          {/* Quick Links */}
+          
           <div>
-            <p className="font-montserrat font-bold text-[18px] mb-4">Quick Links</p>
+            <p className="font-montserrat font-bold text-[18px] mb-4 text-[#FFA586]">Quick Links</p>
             <ul className="space-y-2 opacity-80 text-sm leading-[18px]">
               <li>All Entrance Course</li>
               <li>UPSC & State PSC Syllabus</li>
@@ -36,7 +35,7 @@ const Footar = () => {
 
           {/* NBGA */}
           <div>
-            <p className="font-montserrat font-bold text-[18px] mb-4">N.B.G.A</p>
+            <p className="font-montserrat font-bold text-[18px] text-[#FFA586] mb-4">N.B.G.A</p>
             <ul className="space-y-2 opacity-80 text-sm leading-[18px]">
               <li>About Us</li>
               <li>Careers</li>
@@ -51,7 +50,7 @@ const Footar = () => {
 
           {/* Student Choice */}
           <div>
-            <p className="font-montserrat font-bold text-[18px] mb-4">Student Choice</p>
+            <p className="font-montserrat font-bold text-[18px] mb-4 text-[#FFA586]">Student Choice</p>
             <ul className="space-y-2 opacity-80 text-sm leading-[18px]">
               <li>N.B.G.A Courses</li>
               <li>UPSC & State PSC</li>
@@ -70,7 +69,7 @@ const Footar = () => {
 
           {/* Popular Test Series */}
           <div>
-            <p className="font-montserrat font-bold text-[18px] mb-4">Popular Test Series</p>
+            <p className="font-montserrat font-bold text-[18px] mb-4 text-[#FFA586]">Popular Test Series</p>
             <ul className="space-y-2 opacity-80 text-sm leading-[18px]">
               <li>UPSC Test Series</li>
               <li>State PCS (Hindi/English)</li>
@@ -87,7 +86,7 @@ const Footar = () => {
 
           {/* UPSC */}
           <div>
-            <p className="font-montserrat font-bold text-[18px] mb-4">UPSC</p>
+            <p className="font-montserrat font-bold text-[18px] mb-4 text-[#FFA586]">UPSC</p>
             <ul className="space-y-2 opacity-80 text-sm leading-[18px]">
               <li>UPSC Online (Hindi)</li>
               <li>UPSC Online (English)</li>
@@ -111,7 +110,7 @@ const Footar = () => {
 
           {/* Centers */}
           <div>
-            <p className="font-montserrat font-bold text-[18px] mb-4">Centre</p>
+            <p className="font-montserrat font-bold text-[18px] mb-4 text-[#FFA586]">Centre</p>
             <ul className="space-y-2 opacity-80 text-sm leading-[18px]">
               <li>Mukherjee Nagar</li>
               <li>Karol Bagh</li>
@@ -124,7 +123,7 @@ const Footar = () => {
 
           {/* Courses */}
           <div>
-            <p className="font-montserrat font-bold text-[18px] mb-4">NBGA Courses</p>
+            <p className="font-montserrat font-bold text-[18px] mb-4 text-[#FFA586]">NBGA Courses</p>
             <ul className="space-y-2 opacity-80 text-sm leading-[18px]">
               <li>Math</li>
               <li>Reasoning</li>
@@ -141,7 +140,7 @@ const Footar = () => {
 
           {/* Popular Test Series */}
           <div>
-            <p className="font-montserrat font-bold text-[18px] mb-4">Popular Test Series</p>
+            <p className="font-montserrat font-bold text-[18px] mb-4 text-[#FFA586]">Popular Test Series</p>
             <ul className="space-y-2 opacity-80 text-sm leading-[18px]">
               <li>BPSSC</li>
               <li>BSSC (10+2 Level)</li>
@@ -164,7 +163,7 @@ const Footar = () => {
 
           {/* Store */}
           <div>
-            <p className="font-montserrat font-bold text-[18px] mb-4">N.B.G.A Store</p>
+            <p className="font-montserrat font-bold text-[18px] text-[#FFA586] mb-4">N.B.G.A Store</p>
             <ul className="space-y-2 opacity-80 text-sm leading-[18px]">
               <li>N.B.G.A Books</li>
               <li>UPSC Current Affairs</li>
@@ -187,7 +186,7 @@ const Footar = () => {
 
           {/* State PCS */}
           <div>
-            <p className="font-montserrat font-bold text-[18px] mb-4">State PCS</p>
+            <p className="font-montserrat font-bold text-[18px] mb-4 text-[#FFA586]">State PCS</p>
             <ul className="space-y-2 opacity-80 text-sm leading-[18px]">
               <li>BPSC Online (Bilingual)</li>
               <li>BPSC Offline (Bilingual)</li>
@@ -207,18 +206,18 @@ const Footar = () => {
 
         </div>
 
-        {/* ---------------- ADDRESS + NEWSLETTER SECTION ---------------- */}
+      
         <div className="flex flex-col md:flex-row justify-between gap-12 pt-10">
 
           {/* LEFT SIDE */}
-          <div className="w-full md:w-1/2">
+          <div className="w-full md:w-3/5">
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-5 mb-6">
               <img src="/img/Footar.png" className="w-24 h-24 border-2 border-orange-500" />
 
               <div className="flex items-start">
                 <FaMapMarkerAlt className="text-orange-500 mt-1 mr-2 text-lg" />
                 <p className="text-sm opacity-80 leading-[20px]">
-                  A-9/8, Ansal Building, Behind Batra Cinema, Near Shriram Tea,<br />
+                  A-9/8, Ansal Building, Behind Batra Cinema, Near Shriram Tea,
                   Dr. Mukherjee Nagar, Delhi 110009
                 </p>
               </div>
@@ -248,7 +247,7 @@ const Footar = () => {
           </div>
 
           {/* RIGHT SIDE */}
-          <div className="w-full md:w-1/2 flex flex-col justify-between">
+          <div className="w-full md:w-2/5 flex flex-col justify-between">
 
             {/* Newsletter */}
             <div className="mb-8">
@@ -280,7 +279,7 @@ const Footar = () => {
                 className="w-full p-3 rounded-md border border-gray-600 bg-transparent text-sm focus:outline-none focus:border-orange-500 mb-4"
               ></textarea>
 
-              <button className="px-10 py-3 border rounded-md hover:bg-orange-500 hover:border-orange-500 transition">
+              <button className="px-10 py-3 border rounded-md bg-[linear-gradient(96.18deg,#C83300_-2.22%,#E35545_48.89%,#FFA98B_100%)] transition">
                 Submit
               </button>
             </div>
@@ -303,120 +302,3 @@ const Footar = () => {
 export default Footar;
 
 
-
-
-// import React from "react";
-// import Image from "next/image";
-// import { Mail, Phone, MapPin } from "lucide-react";
-
-// const Footer = () => {
-//   return (
-//     <footer className="bg-[#1E1E2F] text-white py-10 px-6 md:px-12 lg:px-20">
-//       {/* Grid Container */}
-//       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-10">
-//         {/* Quick Links */}
-//         <div>
-//           <h3 className="font-semibold text-lg mb-4">Quick Links</h3>
-//           <ul className="space-y-2 text-sm text-gray-300">
-//             <li>About Us</li>
-//             <li>Courses</li>
-//             <li>Contact</li>
-//             <li>Online Test Series</li>
-//             <li>Study Material</li>
-//           </ul>
-//         </div>
-
-//         {/* NBCA */}
-//         <div>
-//           <h3 className="font-semibold text-lg mb-4">N.B.C.A</h3>
-//           <ul className="space-y-2 text-sm text-gray-300">
-//             <li>About</li>
-//             <li>Events</li>
-//             <li>Gallery</li>
-//             <li>Results</li>
-//             <li>Terms & Conditions</li>
-//           </ul>
-//         </div>
-
-//         {/* Student Choice */}
-//         <div>
-//           <h3 className="font-semibold text-lg mb-4">Student Choice</h3>
-//           <ul className="space-y-2 text-sm text-gray-300">
-//             <li>SSC CGL</li>
-//             <li>SSC CHSL</li>
-//             <li>Banking</li>
-//             <li>Railway</li>
-//             <li>UPSC</li>
-//           </ul>
-//         </div>
-
-//         {/* Popular Test Series */}
-//         <div>
-//           <h3 className="font-semibold text-lg mb-4">Popular Test Series</h3>
-//           <ul className="space-y-2 text-sm text-gray-300">
-//             <li>SSC CGL Test Series</li>
-//             <li>SSC CHSL Test Series</li>
-//             <li>UPSC Prelims</li>
-//             <li>Railway NTPC</li>
-//             <li>Bank PO</li>
-//           </ul>
-//         </div>
-
-//         {/* UPSC */}
-//         <div>
-//           <h3 className="font-semibold text-lg mb-4">UPSC</h3>
-//           <ul className="space-y-2 text-sm text-gray-300">
-//             <li>UPSC Online (Hindi)</li>
-//             <li>UPSC Online (English)</li>
-//             <li>GS Paper</li>
-//             <li>Essay</li>
-//             <li>CSAT</li>
-//           </ul>
-//         </div>
-
-//         {/* States */}
-//         <div>
-//           <h3 className="font-semibold text-lg mb-4">State PCS</h3>
-//           <ul className="space-y-2 text-sm text-gray-300">
-//             <li>UPPCS</li>
-//             <li>BPSC</li>
-//             <li>MPPSC</li>
-//             <li>RAS</li>
-//             <li>UKPSC</li>
-//           </ul>
-//         </div>
-//       </div>
-
-//       {/* Address */}
-//       <div className="mt-12 flex flex-col md:flex-row items-start md:items-center gap-6">
-//         <Image src="/img/logo.png" alt="Logo" width={80} height={80} />
-//         <p className="text-gray-300 text-sm leading-6 max-w-xl">
-//           A-ward Building Behind Durga Chauraha Near Shubham Chowk, Maharajganj,
-//           Uttar Pradesh 110009
-//         </p>
-//       </div>
-
-//       {/* Contact */}
-//       <div className="mt-6 text-gray-300 text-sm">
-//         <p className="flex items-center gap-2"><Phone size={16}/> +91 6200160243</p>
-//         <p className="flex items-center gap-2"><Mail size={16}/> contact@nbcacademy.com</p>
-//         <p className="flex items-center gap-2"><MapPin size={16}/> Maharajganj, UP</p>
-//       </div>
-
-//       {/* Social Icons */}
-//       <div className="flex gap-4 mt-4">
-//         <Image src="/img/fb.png" alt="fb" width={24} height={24} />
-//         <Image src="/img/insta.png" alt="insta" width={24} height={24} />
-//         <Image src="/img/x.png" alt="twitter" width={24} height={24} />
-//         <Image src="/img/yt.png" alt="youtube" width={24} height={24} />
-//       </div>
-
-//       {/* Bottom */}
-//       <div className="mt-10 border-t border-gray-700 pt-4 text-center text-gray-400 text-sm">
-//         © 2025 NBCA. All Rights Reserved.
-//       </div>
-//     </footer>
-//   );
-// };
-
-// export default Footer;
