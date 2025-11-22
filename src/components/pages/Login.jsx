@@ -9,23 +9,34 @@ export default function Login() {
 
   return (
     <div className="w-full flex justify-center bg-gray-100 py-10">
-
-      <div className="relative w-full max-w-[1440px] h-[990px] rounded-xl overflow-hidden shadow-xl">
-
-      
-        <Image
-          src="/img/Login.png"
-          alt="Background"
-          fill
-          className="object-cover"
-        />
-        <div className="absolute inset-0 bg-black/40" />
-
+      <div className="
+        relative w-full max-w-[1440px] 
+        h-auto lg:h-[990px]
+        rounded-xl overflow-hidden shadow-xl
+        flex flex-col lg:block
+      ">
         
-        <div className="absolute left-0 top-0 w-1/2 h-full flex flex-col justify-center pl-10 lg:pl-16 text-white z-10">
+        
+        <div className="absolute inset-0">
+          <Image
+            src="/img/Login.png"
+            alt="Background"
+            fill
+            className="object-cover"
+          />
+          <div className="absolute inset-0 bg-black/40" />
+        </div>
 
-         
-          <div className="mb-8 flex flex-col items-start">
+       
+        <div className="
+          relative z-10 text-white 
+          w-full lg:w-1/2 
+          flex flex-col items-center lg:items-start 
+          text-center lg:text-left 
+          py-10 lg:py-0 
+          px-6 lg:pl-16
+        ">
+          <div className="mt-80 flex flex-col items-center lg:items-start">
             <div className="w-28 h-28 bg-white rounded-full flex items-center justify-center shadow-xl">
               <Image src="/img/Notebook12.png" width={90} height={90} alt="logo" />
             </div>
@@ -44,14 +55,17 @@ export default function Login() {
           </p>
         </div>
 
+      
         <div
           className="
-             absolute 
-    right-8 lg:right-12
-    bottom-0
-    w-full max-w-[460px] h-[768px]
-    bg-white py-12 px-8 lg:px-12
-    rounded-2xl shadow-2xl z-20
+            relative z-20 
+            w-full max-w-[500px] 
+            mx-auto 
+            mt-10 lg:mt-0 
+            right-0 lg:absolute lg:right-12 bottom-0
+            bg-white 
+            py-12 px-8 lg:px-12 
+            rounded-2xl shadow-2xl
           "
         >
           <p className="text-sm font-semibold text-gray-500 tracking-wider">
@@ -62,7 +76,7 @@ export default function Login() {
             Create an Account
           </h2>
 
-          
+         
           <form className="space-y-4">
             <input type="text" placeholder="Your Name" className="w-full p-3 border border-gray-300 rounded-md" />
             <input type="email" placeholder="Email" className="w-full p-3 border border-gray-300 rounded-md" />
@@ -75,14 +89,14 @@ export default function Login() {
             </Link>
           </form>
 
-          
+         
           <div className="flex items-center my-7">
             <div className="flex-grow border-t border-gray-300" />
             <span className="mx-4 text-gray-500">Or</span>
             <div className="flex-grow border-t border-gray-300" />
           </div>
 
-         
+       
           <div className="space-y-3">
             <button
               onClick={() => setShowPopup(true)}
@@ -105,9 +119,9 @@ export default function Login() {
             <a href="#" className="font-bold text-black underline">LOGIN HERE</a>
           </p>
         </div>
-
       </div>
-      
+
+    
       {showPopup && (
         <div
           onClick={() => setShowPopup(false)}
@@ -132,7 +146,6 @@ export default function Login() {
           </div>
         </div>
       )}
-
     </div>
   );
 }

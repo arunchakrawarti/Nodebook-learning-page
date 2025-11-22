@@ -30,8 +30,9 @@ const Gsspacial = () => {
   const CurriculumItem = ({ section, videos, notes }) => (
     <div className="p-4 rounded-lg bg-gray-50 mb-3">
       <span className="font-medium text-gray-800">{section}</span>
-      <div className="flex space-x-15 text-sm text-gray-600 mt-2">
-        <div className="flex items-center space-x-1">
+      <div className="flex justify-between text-sm text-gray-600 mt-2">
+        <div className="flex gap-10">
+          <div className="flex items-center space-x-1">
           <CiYoutube className="w-4 h-4" />
           <span>{videos} Videos</span>
         </div>
@@ -39,12 +40,15 @@ const Gsspacial = () => {
           <BiNote className="w-4 h-4" />
           <span>{notes} Notes</span>
         </div>
+        </div>
+         <select className="cursor-pointer"/>
       </div>
+     
     </div>
   );
 
   const FacultyCard = ({ name, subject, img }) => (
-    <div className="flex flex-col items-center text-center p-4 rounded-lg shadow-sm hover:shadow-md">
+    <div className="flex flex-col items-center text-center p-4 rounded-lg shadow-sm hover:shadow-2xl">
       <div className="relative w-28 h-28 md:h-35 md:w-35 lg:w-55 lg:h-50 rounded-lg overflow-hidden mb-3">
         {img ? (
           <Image src={img} alt={name} fill className="object-cover" />
@@ -71,7 +75,7 @@ const Gsspacial = () => {
 
         {/* Left Side */}
         <div className="lg:col-span-2">
-          <h1 className="font-poppins font-bold text-[24px] leading-[32px] mb-6">
+          <h1 className="font-poppins font-bold text-[24px] leading-[32px] mb-6 mt-10">
             {courseDetails.title}
           </h1>
 
