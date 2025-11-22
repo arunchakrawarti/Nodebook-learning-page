@@ -28,6 +28,7 @@ export default function Home() {
     <Impact/>
     <Notebook/>
     <Learning/>
+    {/* <Calling/> */}
    </div>
   );
 }

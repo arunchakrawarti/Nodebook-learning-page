@@ -13,7 +13,7 @@ const Card4 = ({
 }) => {
   return (
     <div
-  className="rounded-xl p-6 shadow-md flex flex-col justify-between"
+  className="rounded-xl p-6 shadow-md flex flex-col hover:shadow-2xl justify-between"
   style={{
     background: bgColor || "#FFFFFF",     // FIXED ✅
     width: cardWidth,

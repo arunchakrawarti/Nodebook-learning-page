@@ -3,7 +3,7 @@ import React from 'react'
 
 const StudyCard = ({ img, title }) => {
   return (
-    <div className="flex flex-col items-center text-center">
+    <div className="flex flex-col items-center hover:shadow-2xl text-center">
       <Image
         src={img}
         height={173}

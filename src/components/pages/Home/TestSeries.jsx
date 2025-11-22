@@ -50,6 +50,7 @@ const TestSeries = () => {
             rounded-lg
             hover:bg-opacity-90
             transition-all duration-300
+              transform hover:scale-105
           "
         >
           Explore Test Series

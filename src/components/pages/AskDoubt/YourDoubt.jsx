@@ -8,7 +8,6 @@ const YourDoubt = () => {
       
       <div className="w-full max-w-[990px]">
 
-        {/* Heading */}
         <div>
           <h1 className="font-inter font-bold text-[20px] md:text-[24px] leading-[100%]">
             We Are Here To Solve Your Doubt
@@ -23,7 +22,7 @@ const YourDoubt = () => {
           </p>
         </div>
 
-        {/* Inputs */}
+        
         <div className="space-y-6 mt-8">
           <Input label="Full Name" placeholder="Enter your full name" />
           <Input label="Email Address" placeholder="Enter your email" />

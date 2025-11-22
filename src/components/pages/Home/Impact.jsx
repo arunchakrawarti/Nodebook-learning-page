@@ -18,9 +18,13 @@ const Impact = () => {
 
       <div className="relative z-10 w-full flex flex-col items-center justify-center py-10 sm:py-16 px-4">
         
-        <h2 className="font-montserrat font-bold text-3xl sm:text-4xl md:text-5xl text-white mb-10 sm:mb-16 text-center">
-          Our Impact
-        </h2>
+        <h2 className="font-montserrat font-bold 
+text-3xl sm:text-4xl md:text-5xl 
+text-white ml-7 mb-10 sm:mb-16 
+text-left w-full max-w-7xl self-start">
+  Our Impact
+</h2>
+
 
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-6 md:gap-8 lg:gap-15 max-w-8xl mx-auto">
           {impactData.map((item, index) => (

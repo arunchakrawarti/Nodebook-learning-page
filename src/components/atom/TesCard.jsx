@@ -3,7 +3,7 @@ import React from 'react'
 
 const TesCard = ({ img, title, description, bgColor }) => {
   return (
-    <div className="border border-gray-300 rounded-xl p-6 flex flex-col items-center text-center shadow-sm hover:shadow-md transition">
+    <div className="border border-gray-300 rounded-xl p-6 flex flex-col items-center text-center shadow-sm hover:shadow-2xl transition">
       <div
         className="w-20 h-20 rounded-xl flex items-center justify-center mb-4"
         style={{ backgroundColor: bgColor }}

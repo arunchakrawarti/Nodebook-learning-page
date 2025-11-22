@@ -28,7 +28,8 @@ const StudyMaterial = () => {
       {/* Button */}
       <div className="flex justify-center md:justify-end mt-10">
        <Link href='/study-material'>
-        <button className="font-urbanist font-medium text-sm sm:text-base md:text-lg bg-[linear-gradient(96.18deg,#C83300_-2.22%,#E35545_48.89%,#FFA98B_100%)] text-white px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg hover:bg-opacity-90 transition-all duration-300">
+        <button className="font-urbanist font-medium text-sm sm:text-base md:text-lg bg-[linear-gradient(96.18deg,#C83300_-2.22%,#E35545_48.89%,#FFA98B_100%)] text-white px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg hover:bg-opacity-90 transition-all duration-300
+       transform hover:scale-105">
           Explore Study Materials
         </button>
        </Link>

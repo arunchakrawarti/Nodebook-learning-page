@@ -7,7 +7,7 @@ const TrendingCard = ({
   description = "Analyze trends from past exams to understand question patterns, difficulty levels, and the most important topics."
 }) => {
   return (
-    <div className='flex items-start p-3 bg-white w-full mx-auto rounded-xl border-b-2 border-gray-100'>
+    <div className='flex items-start p-3 bg-white w-full mx-auto rounded-xl border-b-2 shadow-md hover:shadow-2xl border-gray-100'>
       
      
       <div className='relative w-20 h-16 flex-shrink-0 overflow-hidden rounded-md'>

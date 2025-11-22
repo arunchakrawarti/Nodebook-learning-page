@@ -12,7 +12,7 @@ export default function Login() {
 
       <div className="relative w-full max-w-[1440px] h-[990px] rounded-xl overflow-hidden shadow-xl">
 
-        {/* BG IMAGE */}
+      
         <Image
           src="/img/Login.png"
           alt="Background"
@@ -21,10 +21,10 @@ export default function Login() {
         />
         <div className="absolute inset-0 bg-black/40" />
 
-        {/* LEFT (50%) */}
+        
         <div className="absolute left-0 top-0 w-1/2 h-full flex flex-col justify-center pl-10 lg:pl-16 text-white z-10">
 
-          {/* Logo */}
+         
           <div className="mb-8 flex flex-col items-start">
             <div className="w-28 h-28 bg-white rounded-full flex items-center justify-center shadow-xl">
               <Image src="/img/Notebook12.png" width={90} height={90} alt="logo" />
@@ -62,7 +62,7 @@ export default function Login() {
             Create an Account
           </h2>
 
-          {/* FORM */}
+          
           <form className="space-y-4">
             <input type="text" placeholder="Your Name" className="w-full p-3 border border-gray-300 rounded-md" />
             <input type="email" placeholder="Email" className="w-full p-3 border border-gray-300 rounded-md" />
@@ -75,14 +75,14 @@ export default function Login() {
             </Link>
           </form>
 
-          {/* OR DIVIDER */}
+          
           <div className="flex items-center my-7">
             <div className="flex-grow border-t border-gray-300" />
             <span className="mx-4 text-gray-500">Or</span>
             <div className="flex-grow border-t border-gray-300" />
           </div>
 
-          {/* SOCIAL BUTTONS */}
+         
           <div className="space-y-3">
             <button
               onClick={() => setShowPopup(true)}

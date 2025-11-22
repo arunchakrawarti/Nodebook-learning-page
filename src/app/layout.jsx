@@ -11,6 +11,7 @@ import {
 } from "next/font/google";
 import Header from "../components/organisms/Header";
 import Footar from "../components/organisms/Footar";
+import Calling from "../components/organisms/Calling";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -84,6 +85,7 @@ export default function RootLayout({ children }) {
       <body className="antialiased bg-white text-gray-900">
         <Header />
         {children}
+        <Calling/>
         <Footar />
       </body>
     </html>

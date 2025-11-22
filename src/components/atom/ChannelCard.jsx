@@ -3,9 +3,9 @@ import Image from "next/image";
 
 const ChannelCard = ({ img, title }) => {
   return (
-    <div className="w-full max-w-sm rounded-lg shadow-md overflow-hidden bg-white hover:shadow-xl transition-shadow duration-300">
+    <div className="w-full max-w-sm rounded-lg shadow-md overflow-hidden bg-white hover:shadow-2xl transition-shadow duration-300">
       
-      {/* Thumbnail */}
+      
       <div className="relative w-full aspect-video flex justify-center items-center">
         <Image
           src={img} 
@@ -24,7 +24,7 @@ const ChannelCard = ({ img, title }) => {
         </div>
       </div>
 
-      {/* Video title */}
+     
       <div className="p-3">
         <p className="font-workSans font-medium text-sm sm:text-base md:text-base lg:text-lg leading-5 sm:leading-6 md:leading-6 lg:leading-7 text-gray-900">
           {title}

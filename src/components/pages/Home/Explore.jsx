@@ -7,7 +7,7 @@ import CardiconData from "../../../../public/db/CardiconData.json";
 const OfflineCentersSection = () => {
   return (
     <div className="relative mx-auto w-full py-12 px-4 sm:px-6 md:px-10 bg-[#F5F6FF] overflow-hidden">
-      {/* BG IMAGE */}
+     
       <div
         className="absolute inset-0 z-0 opacity-20 sm:opacity-50"
         style={{
@@ -18,29 +18,29 @@ const OfflineCentersSection = () => {
       />
 
       <div className="relative z-10 ">
-        {/* HEADING */}
+       
         <h3 className="font-montserrat font-bold text-2xl sm:text-3xl md:text-4xl text-center text-[#003566] mb-10">
           Explore Offline Centers
         </h3>
 
-        {/* EXPLORE CARDS */}
+        
         <div className="flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-6">
-          {/* Card 1 */}
+         
           <ExploreCard {...ExploreCardData[0]} />
 
-          {/* Divider (desktop only) */}
+          
           <div className="hidden lg:block border-t-4 border-dashed border-blue-400" />
 
-          {/* Card 2 */}
+     
           <ExploreCard {...ExploreCardData[1]} />
         </div>
 
-        {/* OTHER CENTERS HEADING */}
+        
         <h3 className="font-montserrat font-bold text-2xl sm:text-3xl md:text-4xl text-center text-[#003566] mt-16 mb-10">
           Our Other Centers
         </h3>
 
-        {/* OTHER CENTER GRID */}
+       
         <div
           className="
           grid 

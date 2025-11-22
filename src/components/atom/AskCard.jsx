@@ -12,7 +12,7 @@ const AskCard = ({ img, title, description }) => {
         p-5 
         bg-white
         shadow-sm 
-        hover:shadow-md 
+        hover:shadow-2xl 
         transition 
         duration-300
       "

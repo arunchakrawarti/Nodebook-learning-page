@@ -15,7 +15,7 @@ const DayCard = ({
         bg-white 
         w-full 
         mx-auto 
-        rounded-xl 
+        rounded-xl shadow-md hover:shadow-2xl 
         border-b-2 border-gray-200
         gap-3 sm:gap-4
       "

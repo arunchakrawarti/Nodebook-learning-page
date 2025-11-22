@@ -4,7 +4,7 @@ import Image from "next/image";
 const Cardicon = ({ img, title }) => {
   return (
     <div className="w-full p-3 sm:p-4">
-      <div className="bg-amber-50 rounded-xl flex flex-col justify-center items-center shadow-md p-5 ">
+      <div className="bg-amber-50 rounded-xl shadow-md flex flex-col justify-center items-center hover:shadow-2xl p-5 ">
 
         <Image
           src={img}
