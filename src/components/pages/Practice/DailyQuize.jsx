@@ -2,6 +2,7 @@ import React from 'react';
 import PriviousCard from '../../atom/PriviousCard'; 
 import testData from '../../../../public/db/testData.json';
 import Link from 'next/link';
+import { Button } from "@/components/common/Button";
 
 const DailyQuize = () => {
   return (
@@ -24,9 +25,9 @@ const DailyQuize = () => {
         ))}
       </div>
       <div className='flex justify-end mt-5'>
-        <button className='bg-[linear-gradient(96.18deg,#C83300_-2.22%,#E35545_48.89%,#FFA98B_100%)] rounded-md px-5 py-3 text-white'>
+        <Button>
         Explore Question
-      </button>
+      </Button>
       </div>
     </div>
   );

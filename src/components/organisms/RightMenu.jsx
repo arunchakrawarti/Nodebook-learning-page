@@ -77,6 +77,9 @@ const rightMenuItems = [
   { id: 6, title: "Test Series", href: "/test-series" },
   { id: 7, title: "Open Test", href: "/open-test" },
   { id: 8, title: "Study Materials", href: "/study-material" },
+  { id: 9, title: "Store", icon: "/img/card12.png", href: "#" },
+  { id: 10, title: "Phone", icon: "/img/phone.png", href: "#" },
+  { id: 11, title: "New", href: "#" },
 ];
 
 const RightMenu = ({ open, onClose }) => {

@@ -2,6 +2,7 @@ import React from "react";
 import CardTest from "../../atom/CardTest";
 import testSeriesData from "../../../../public/db/testSeries.json";
 import Link from "next/link";
+import { Button } from "@/components/common/Button";
 
 const TestSeries = () => {
   return (
@@ -41,20 +42,9 @@ const TestSeries = () => {
       {/* Explore Button */}
       <div className="flex justify-center md:justify-end mt-10">
         <Link href='/test-series'>
-        <button
-          className="
-            font-urbanist font-medium
-            text-sm sm:text-base
-            bg-[linear-gradient(96.18deg,#C83300_-2.22%,#E35545_48.89%,#FFA98B_100%)] text-white
-            px-6 py-3
-            rounded-lg
-            hover:bg-opacity-90
-            transition-all duration-300
-              transform hover:scale-105
-          "
-        >
+        <Button>
           Explore Test Series
-        </button>
+        </Button>
         </Link>
       </div>
     </section>

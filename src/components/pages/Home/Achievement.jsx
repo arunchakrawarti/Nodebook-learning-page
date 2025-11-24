@@ -82,6 +82,7 @@
 import React from "react";
 import CardTest from "../../atom/CardTest";
 import achievementsData from "../../../../public/db/Achievements.json";
+import { Button } from "@/components/common/Button";
 
 const Achievement = () => {
   return (
@@ -118,9 +119,9 @@ const Achievement = () => {
       </div>
 
       <div className="flex justify-center md:justify-end mt-10">
-        <button className="font-urbanist font-medium text-sm sm:text-base bg-[linear-gradient(96.18deg,#C83300_-2.22%,#E35545_48.89%,#FFA98B_100%)] text-white px-5 sm:px-6 py-2 sm:py-3 rounded-lg hover:bg-opacity-90 transition-all duration-300">
+        <Button>
           See All Achievements
-        </button>
+        </Button>
       </div>
     </section>
   );

@@ -1,6 +1,8 @@
 import React from "react";
 import PopularCard from "../../atom/PopularCard";
 import Link from "next/link";
+import { Button } from "@/components/common/Button";
+
 
 const courseData = [
   {
@@ -56,9 +58,9 @@ const Upsc = () => {
 
       <div className="text-end">
         <Link href='/course'>
-        <button className="font-urbanist font-medium text-[16px] leading-[24px] mt-5 bg-[linear-gradient(96.18deg,#C83300_-2.22%,#E35545_48.89%,#FFA98B_100%)] text-white px-6 py-3 rounded-lg hover:bg-purple-900 transition-all duration-300">
+        <Button>
           Explore Course
-        </button>
+        </Button>
         </Link>
       </div>
     </div>

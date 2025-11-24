@@ -2,6 +2,7 @@ import React from "react";
 import PopularCard from "../../atom/PopularCard";
 import Link from "next/link";
 import courseData from "../../../../public/db/PopularCourses.json";
+import { Button } from "../../common/Button";  
 
 const PopularCourse = () => {
   return (
@@ -24,14 +25,10 @@ const PopularCourse = () => {
       </div>
 
       <div className="text-end">
-        <Link href='/course'>
-       <button className="font-urbanist font-medium text-[16px] leading-[24px] mt-5 
-  bg-[linear-gradient(96.18deg,#C83300_-2.22%,#E35545_48.89%,#FFA98B_100%)] 
-  text-white px-6 py-3 rounded-lg 
-  transition-all duration-300 transform hover:scale-105">
-  Explore Course
-</button>
-
+        <Link href="/course">
+          <Button>
+            Explore Course
+          </Button>
         </Link>
       </div>
     </div>
@@ -39,5 +36,3 @@ const PopularCourse = () => {
 };
 
 export default PopularCourse;
-
-

@@ -2,16 +2,17 @@ import React from "react";
 import CardTest from "../../atom/CardTest";
 import testSeriesData from "../../../../public/db/testSeries.json";
 import Link from "next/link";
+import { Button } from "@/components/common/Button";
+
 
 const Test = () => {
   return (
     <section className="py-10 px-4 sm:px-6 md:px-10 lg:px-16 xl:px-10 bg-gray-50">
-      {/* Heading */}
       <h1 className="font-workSans font-bold text-2xl sm:text-3xl md:text-4xl text-center md:text-left mb-10 text-gray-900">
         Test Series
       </h1>
 
-      {/* Responsive Grid */}
+     
       <div
         className="
           grid
@@ -34,17 +35,12 @@ const Test = () => {
           />
         ))}
       </div>
-
-      {/* Explore Button */}
+      
       <div className="flex justify-center md:justify-end mt-10">
        <Link href='test-series'>
-        <button className="
-          font-urbanist font-medium text-sm sm:text-base
-          bg-[linear-gradient(96.18deg,#C83300_-2.22%,#E35545_48.89%,#FFA98B_100%)] text-white text-white px-5 sm:px-6 py-2 sm:py-3
-          rounded-lg hover:bg-opacity-90 transition-all duration-300
-        ">
+        <Button>
           Explore Test Series
-        </button>
+        </Button>
        </Link>
       </div>
     </section>

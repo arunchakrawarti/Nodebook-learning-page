@@ -1,6 +1,7 @@
 import React from 'react'
 import Input from '../../molecules/Input'
 import { IoIosSend } from "react-icons/io";
+import { Button } from "@/components/common/Button";
 
 const YourDoubt = () => {
   return (
@@ -40,21 +41,13 @@ const YourDoubt = () => {
             className="w-full h-[180px] md:h-[230px] mt-2 p-3 border border-gray-400 rounded-md"
           ></textarea>
         </div>
-      <div
-  className="
-    bg-[linear-gradient(96.18deg,#C83300_-2.22%,#E35545_48.89%,#FFA98B_100%)] text-white mt-10
-    w-full sm:w-auto 
-    py-3 px-4 sm:px-6
-    rounded-md flex items-center justify-center gap-2
-    cursor-pointer
-  "
->
-  <button className="font-medium text-[14px] sm:text-[16px]  md:text-[18px]">
+      <div>
+  <Button className="flex items-center gap-2">
     Submit Doubt
-  </button>
-
-  <IoIosSend className="text-[16px] sm:text-[18px] md:text-[20px]" />
+    <IoIosSend className="text-[16px] sm:text-[18px] md:text-[20px]" />
+  </Button>
 </div>
+
 
 
       </div>
