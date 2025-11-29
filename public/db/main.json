@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "img": "/img/Side.png",
+    "title": "All Exams",
+    "description": "Explore All Exams at KGS"
+  },
+  {
+    "id": 2,
+    "img": "/img/Side1.png",
+    "title": "Notesbook Global Academy Course",
+    "description": "Geography | Polity | History | World Map | Indian Map | Economics | Biology"
+  },
+  {
+    "id": 3,
+    "img": "/img/Side2.png",
+    "title": "UPSC & State PSC",
+    "description": "UPSC | BPSC | UP-PSC | MP-PSC"
+  },
+  {
+    "id": 4,
+    "img": "/img/Side3.png",
+    "title": "State Exams",
+    "description": "UP | Bihar | MP | Rajasthan"
+  },
+  {
+    "id": 5,
+    "img": "/img/Side4.png",
+    "title": "NEET | JEE | CUET | Boards",
+    "description": "NEET | JEE | CUET | Boards"
+  },
+  {
+    "id": 6,
+    "img": "/img/Side5.png",
+    "title": "Defence Exams",
+    "description": "NDA | CDS | CAPF | AFCAT | SSB | Agniveer"
+  },
+  {
+    "id": 7,
+    "img": "/img/Side6.png",
+    "title": "Police Exams",
+    "description": "UP SI | Bihar SI | Delhi Police | UP Constable"
+  },
+  {
+    "id": 8,
+    "img": "/img/Side13.png",
+    "title": "SSC Exams",
+    "description": "CGL | CPO | CHSL | MTS | SSC GD | Delhi Police"
+  },
+  {
+    "id": 9,
+    "img": "/img/Side7.png",
+    "title": "Foundation Courses",
+    "description": "Physics | Chemistry | Biology | History | Geography | Polity | NCERT | Math | English | Map | Reasoning"
+  },
+  {
+    "id": 10,
+    "img": "/img/Side8.png",
+    "title": "Railway Exams",
+    "description": "RRB | RPF"
+  },
+  {
+    "id": 11,
+    "img": "/img/Side9.png",
+    "title": "Teaching Exams",
+    "description": "TET | Teaching | UGC"
+  },
+  {
+    "id": 12,
+    "img": "/img/Side10.png",
+    "title": "Banking Exams",
+    "description": "SBI | RBI | IBPS"
+  },
+  {
+    "id": 13,
+    "img": "/img/Side11.png",
+    "title": "Engineering Exams",
+    "description": "Civil | Electrical | Mechanical"
+  },
+  {
+    "id": 14,
+    "img": "/img/Side12.png",
+    "title": "UGC NET",
+    "description": "UGC NET/JRF"
+  }
+]
