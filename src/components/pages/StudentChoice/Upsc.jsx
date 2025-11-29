@@ -2,38 +2,8 @@ import React from "react";
 import PopularCard from "../../atom/PopularCard";
 import Link from "next/link";
 import { Button } from "@/components/common/Button";
+import courseData from "../../../../public/db/courseData.json"
 
-
-const courseData = [
-  {
-    img: "/img/popular.png",
-    title: "UPSC GS Foundation Batch 2025",
-    price: "24.92",
-    originalPrice: "32.90",
-    badges: ["Best Seller", "20% OFF"],
-  },
-  {
-    img: "/img/popular1.png",
-    title: "SSC Foundation Batch",
-    price: "24.92",
-    originalPrice: "32.90",
-    badges: ["Best Seller", "20% OFF"],
-  },
-  {
-    img: "/img/popular2.png",
-    title: "GS Special Vision 2.0 Foundation Batch",
-    price: "24.92",
-    originalPrice: "32.90",
-    badges: ["Best Seller", "20% OFF"],
-  },
-  {
-    img: "/img/popular3.png",
-    title: "UP SI Practise Batch 2025",
-    price: "24.92",
-    originalPrice: "32.90",
-    badges: ["Best Seller", "20% OFF"],
-  },
-];
 
 const Upsc = () => {
   return (
